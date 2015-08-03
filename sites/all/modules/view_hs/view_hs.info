@@ -1,0 +1,3 @@
+name = View HS
+description = Hierarchical select in exposed view filter.
+core = 7.x

@@ -1,0 +1,16 @@
+<?php
+function webform_nid_form_alter(&$form, $form_state, $form_id) {
+  if ($form_id == 'webform_client_form_690') {
+    if ($node = menu_get_object()) {
+      $form['submitted']['job_title']['#value'] = $node->title;
+      $form['submitted']['email_send']['#value'] = $node->field_email_job['und']['0']['email'];
+      $form['submitted']['job_number']['#value'] = $node->field_job_number['und']['0']['value'];
+    }
+  }
+   if ($form_id == 'webform_client_form_691') {
+    if ($node = menu_get_object()) {
+      $form['submitted']['service_title']['#value'] = $node->title;
+    }
+  }
+}
+?>

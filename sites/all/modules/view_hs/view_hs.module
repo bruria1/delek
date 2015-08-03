@@ -1,0 +1,165 @@
+<?php
+
+/**
+ * @file
+ * Add the "hierarchical_select" form element
+ */
+
+define("VID",5);
+
+function view_hs_menu() {
+  $items = array();
+
+  $items['admin/config/content/view_hs'] = array(
+    'title' => 'View HS config',
+    'description' => 'Configuration for View HS module',
+    'page callback' => 'drupal_get_form',
+    'page arguments' => array('view_hs_form'),
+    'access arguments' => array('access administration pages'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  return $items;
+}
+function view_hs_form($form, &$form_state) {
+  $form['vid'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Vocabulary id'),
+    '#default_value' => variable_get('vid', 1),
+    '#size' => 3,
+    '#maxlength' => 3,
+    '#description' => t('Vocabulary id.'),
+    '#required' => TRUE,
+  );
+
+  return system_settings_form($form);
+}
+
+/**
+ * Implements hook_form_views-exposed-form-test-page_alter() to show each form's identifier.
+ */
+function view_hs_form_alter(&$form, &$form_state, $form_id) {
+if ($form_id == 'views_exposed_form') {
+        $vid = VID; // vocabulary id
+        $options_first = _get_cities($vid);
+
+        // Set $first_sel var
+        if (isset($form_state['values']['dropdown_first']))
+            $first_sel = $form_state['values']['dropdown_first'];
+        elseif (isset($form_state['input']['dropdown_first']))
+            $first_sel = $form_state['input']['dropdown_first'];
+        else $first_sel = key($options_first);
+
+
+        $form['dropdown_first'] = array(            
+            '#type' => 'select',
+            '#ajax' =>  array(
+                  'callback' => '_dependent_dropdown_callback',
+                    'wrapper' => 'dropdown-second-replace',
+                     'event' => 'change',
+                'method' => 'replace',
+             ),
+            '#options' => $options_first,      
+            '#default_value' => $first_sel,
+        );
+
+            
+        $form['dropdown_second'] = array(                                                
+                '#type' => 'select',            
+                // The entire enclosing div created here gets replaced when dropdown_first
+                // is changed.
+                '#prefix' => '<div id="dropdown-second-replace">',
+                '#suffix' => '</div>',
+                // when the form is rebuilt during ajax processing, the $selected variable
+                // will now have the new value and so the options will change
+                '#options' => _get_neighborhoods($first_sel),    
+                '#default_value' => 10,
+            );
+
+        /* AJAX fix */
+        $js_code="jQuery(function(){
+                  for(ajax_object in Drupal.ajax)
+                      if(Drupal.ajax[ajax_object].options)
+                          jQuery.extend(Drupal.ajax[ajax_object].options.data,Drupal.settings.exposed_form_info);
+                      });";
+        $form_info_array = array(
+          'form_id' => $form['#form_id'],
+          'form_build_id' => $form['#build_id'],
+          //'form_token' => $form['#token'],
+          );
+        drupal_add_js(array('exposed_form_info' => $form_info_array), 'setting');
+        drupal_add_js($js_code,array('type' => 'inline', 'weight' => 100));
+
+    }
+
+}
+
+
+/**
+ * Selects just the second dropdown to be returned for re-rendering
+ *
+ * Since the controlling logic for populating the form is in the form builder
+ * function, all we do here is select the element and return it to be updated.
+ *
+ * @return renderable array (the second dropdown)
+ */
+function _dependent_dropdown_callback($form, $form_state) {  
+    return $form['dropdown_second'];
+}
+
+/**
+ * Helper function to populate the second dropdown. This would normally be
+ * pulling data fro/m the database.
+ *
+ * @param $key
+ *   This will determine which set of options is returned.
+ *
+ * @return array of options
+ */
+function _get_second_dropdown_options($key) {
+    return (_get_neighborhoods($key));  
+}
+
+/**
+ * Helper function to populate the list of Cities (first level of cities vocabulary)
+ *
+ * @param $vid
+ *   The vocabulary id
+ *
+ * @return array of terms in first level
+ */
+function _get_cities($vid) {
+  $terms = taxonomy_get_tree($vid,0,1);        
+  $cities = array("All" => t("- Select -"));  
+  foreach($terms as $term){              
+    $cities[$term -> tid] = $term -> name;
+  }
+  return $cities;
+}
+
+/**
+ * Helper function that returns list of neighborhoods
+ *
+ * @param $city
+ *   The city id for neighborhood
+ *
+ * @return array of term
+ */
+function _get_neighborhoods($city) {    
+  if ($city == 'All') {
+    $terms = taxonomy_get_tree(VID,0); 
+    $nbrs = array("All" => t("- Select -"));    
+    foreach($terms as $term){         
+        if ($term -> depth > 0)
+        $nbrs[$term -> tid] = $term -> name;    
+    }
+  }
+  else {
+    $terms = taxonomy_get_children($city,VID);
+    $nbrs = array("All" => t("- Select -"));    
+    foreach($terms as $term){          
+        $nbrs[$term -> tid] = $term -> name;    
+    }
+  }
+  return $nbrs;
+}

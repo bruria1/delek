@@ -1,0 +1,184 @@
+<?php
+/**
+ * @file
+ * Contains the theme's functions to manipulate Drupal's default markup.
+ *
+ * Complete documentation for this file is available online.
+ * @see https://drupal.org/node/1728096
+ */
+
+
+/**
+ * Override or insert variables into the maintenance page template.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("maintenance_page" in this case.)
+ */
+/* -- Delete this line if you want to use this function
+function STARTERKIT_preprocess_maintenance_page(&$variables, $hook) {
+  // When a variable is manipulated or added in preprocess_html or
+  // preprocess_page, that same work is probably needed for the maintenance page
+  // as well, so we can just re-use those functions to do that work here.
+  STARTERKIT_preprocess_html($variables, $hook);
+  STARTERKIT_preprocess_page($variables, $hook);
+}
+// */
+
+/**
+ * Override or insert variables into the html templates.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("html" in this case.)
+ */
+/* -- Delete this line if you want to use this function
+function STARTERKIT_preprocess_html(&$variables, $hook) {
+  $variables['sample_variable'] = t('Lorem ipsum.');
+
+  // The body tag's classes are controlled by the $classes_array variable. To
+  // remove a class from $classes_array, use array_diff().
+  //$variables['classes_array'] = array_diff($variables['classes_array'], array('class-to-remove'));
+}
+// */
+
+/**
+ * Override or insert variables into the page templates.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("page" in this case.)
+ */
+/* -- Delete this line if you want to use this function
+function STARTERKIT_preprocess_page(&$variables, $hook) {
+  $variables['sample_variable'] = t('Lorem ipsum.');
+}
+// */
+
+/**
+ * Override or insert variables into the node templates.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("node" in this case.)
+ */
+/* -- Delete this line if you want to use this function
+function STARTERKIT_preprocess_node(&$variables, $hook) {
+  $variables['sample_variable'] = t('Lorem ipsum.');
+
+  // Optionally, run node-type-specific preprocess functions, like
+  // STARTERKIT_preprocess_node_page() or STARTERKIT_preprocess_node_story().
+  $function = __FUNCTION__ . '_' . $variables['node']->type;
+  if (function_exists($function)) {
+    $function($variables, $hook);
+  }
+}
+// */
+
+/**
+ * Override or insert variables into the comment templates.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("comment" in this case.)
+ */
+/* -- Delete this line if you want to use this function
+function STARTERKIT_preprocess_comment(&$variables, $hook) {
+  $variables['sample_variable'] = t('Lorem ipsum.');
+}
+// */
+
+/**
+ * Override or insert variables into the region templates.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("region" in this case.)
+ */
+/* -- Delete this line if you want to use this function
+function STARTERKIT_preprocess_region(&$variables, $hook) {
+  // Don't use Zen's region--sidebar.tpl.php template for sidebars.
+  //if (strpos($variables['region'], 'sidebar_') === 0) {
+  //  $variables['theme_hook_suggestions'] = array_diff($variables['theme_hook_suggestions'], array('region__sidebar'));
+  //}
+}
+// */
+
+/**
+ * Override or insert variables into the block templates.
+ *
+ * @param $variables
+ *   An array of variables to pass to the theme template.
+ * @param $hook
+ *   The name of the template being rendered ("block" in this case.)
+ */
+/* -- Delete this line if you want to use this function
+function STARTERKIT_preprocess_block(&$variables, $hook) {
+  // Add a count to all the blocks in the region.
+  // $variables['classes_array'][] = 'count-' . $variables['block_id'];
+
+  // By default, Zen will use the block--no-wrapper.tpl.php for the main
+  // content. This optional bit of code undoes that:
+  //if ($variables['block_html_id'] == 'block-system-main') {
+  //  $variables['theme_hook_suggestions'] = array_diff($variables['theme_hook_suggestions'], array('block__no_wrapper'));
+  //}
+}
+// */
+
+
+function delek_form_alter(&$form, $form_state, $form_id) {
+  if(($form['#id'] == 'views-exposed-form-stations-page-1') || ($form['#id'] == 'views-exposed-form-stations-block-3') || ($form['#id'] == 'views-exposed-form-stations-page-2') || ($form['#id'] == 'views-exposed-form-stations-page-3') || ($form['#id'] == 'views-exposed-form-stations-page-4')){
+    foreach ($form['dropdown_first']['#options'] as $key => &$option) {
+      if ($key == 'All') {
+        $option = 'אזור';
+      } 
+    }
+
+    foreach ($form['dropdown_second']['#options'] as $key => &$option) {
+      if ($key == 'All') {
+        $option = 'עיר';
+      } 
+    }
+
+  }
+
+}
+
+function delek_file_link($variables) {
+  $file = $variables['file'];
+  $icon_directory = $variables['icon_directory'];
+
+  $url = file_create_url($file->uri);
+  $icon = theme('file_icon', array('file' => $file, 'icon_directory' => $icon_directory));
+
+  // Set options as per anchor format described at
+  // http://microformats.org/wiki/file-format-examples
+  $options = array(
+    'attributes' => array(
+      'type' => $file->filemime . '; length=' . $file->filesize,
+    ),
+  );
+
+  // Use the description as the link text if available.
+  if (empty($file->description)) {
+    $link_text = $file->filename;
+  }
+  else {
+    $link_text = $file->description;
+    $options['attributes']['title'] = check_plain($file->filename);
+  }
+
+  //open files of particular mime types in new window
+  $new_window_mimetypes = array('application/pdf','text/plain');
+  if (in_array($file->filemime, $new_window_mimetypes)) {
+    $options['attributes']['target'] = '_blank';
+  }
+
+  return '<span class="file">' . $icon . ' ' . l($link_text, $url, $options) . '</span>';
+}
