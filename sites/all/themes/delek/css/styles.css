@@ -6860,26 +6860,86 @@ nav.mm-menu.mm-basic {
 }
 
 /********** Olimpic page ************/
-/* line 4045, ../sass/components/_delek.scss */
+/* line 4062, ../sass/components/_delek.scss */
 .node-1373 {
   width: 100%;
 }
-/* line 4047, ../sass/components/_delek.scss */
+/* line 4064, ../sass/components/_delek.scss */
 .node-1373 .field-name-field-image {
   width: 45%;
   float: left;
 }
-/* line 4051, ../sass/components/_delek.scss */
-.node-1373 .field-name-body {
-  width: 55%;
+/* line 4067, ../sass/components/_delek.scss */
+.node-1373 .field-name-field-image img {
+  width: 85%;
+  float: left;
 }
-/* line 4053, ../sass/components/_delek.scss */
-.node-1373 .field-name-body img {
-  max-width: 430px;
+/* line 4072, ../sass/components/_delek.scss */
+.node-1373 .field-name-body {
   width: 100%;
+  max-width: 500px;
+  position: relative;
+  top: -10px;
+}
+/* line 4077, ../sass/components/_delek.scss */
+.node-1373 .field-name-body img {
+  width: 100%;
+  position: relative;
+  right: -5px;
+}
+/* line 4082, ../sass/components/_delek.scss */
+.node-1373 .field-name-body p {
+  width: 90%;
+  padding: 0 5px;
+}
+@media (max-width: 480px) {
+  /* line 4089, ../sass/components/_delek.scss */
+  .node-1373 .field-name-field-image {
+    width: 100%;
+  }
+  /* line 4091, ../sass/components/_delek.scss */
+  .node-1373 .field-name-field-image img {
+    width: 100%;
+  }
+  /* line 4095, ../sass/components/_delek.scss */
+  .node-1373 .field-name-body {
+    width: 100%;
+  }
+  /* line 4097, ../sass/components/_delek.scss */
+  .node-1373 .field-name-body img {
+    margin-top: 30px;
+  }
+  /* line 4100, ../sass/components/_delek.scss */
+  .node-1373 .field-name-body p {
+    width: 100%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 4107, ../sass/components/_delek.scss */
+  .node-1373 .field-name-field-image {
+    width: 50%;
+  }
+  /* line 4109, ../sass/components/_delek.scss */
+  .node-1373 .field-name-field-image img {
+    width: 100%;
+  }
+  /* line 4113, ../sass/components/_delek.scss */
+  .node-1373 .field-name-body {
+    width: 45%;
+    top: -30px;
+  }
+  /* line 4116, ../sass/components/_delek.scss */
+  .node-1373 .field-name-body img {
+    margin-top: 30px;
+  }
+  /* line 4119, ../sass/components/_delek.scss */
+  .node-1373 .field-name-body p {
+    width: 100%;
+    font-size: 0.7em;
+  }
 }
 
-/* line 4063, ../sass/components/_delek.scss */
+/* line 4129, ../sass/components/_delek.scss */
 #block-views-oplimic-page-block .view-header {
   font-size: 30px;
   text-align: center;
@@ -6888,22 +6948,69 @@ nav.mm-menu.mm-basic {
   margin: 0 auto;
   line-height: 1.5;
 }
-/* line 4071, ../sass/components/_delek.scss */
+/* line 4137, ../sass/components/_delek.scss */
 #block-views-oplimic-page-block .views-row {
   clear: both;
   padding-top: 30px;
 }
-/* line 4075, ../sass/components/_delek.scss */
+/* line 4141, ../sass/components/_delek.scss */
 #block-views-oplimic-page-block .views-field-field-athlet-image {
   max-width: 400px;
   width: 100%;
   float: right;
   padding-left: 40px;
 }
-/* line 4081, ../sass/components/_delek.scss */
+/* line 4147, ../sass/components/_delek.scss */
 #block-views-oplimic-page-block .views-field-title {
   font-size: 20px;
   font-weight: bold;
+}
+@media (max-width: 480px) {
+  /* line 4153, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .view-header {
+    font-size: 1.5em;
+    width: 80%;
+  }
+  /* line 4156, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .view-header p {
+    margin: 0;
+  }
+  /* line 4160, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .views-row {
+    padding-top: 10px;
+    text-align: center;
+  }
+  /* line 4164, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .views-field-field-athlet-image {
+    padding-left: 0;
+  }
+  /* line 4167, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .views-field-title {
+    clear: both;
+    padding-top: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 4174, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .view-header {
+    font-size: 1.1em;
+    width: 80%;
+  }
+  /* line 4178, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .views-row {
+    padding-top: 10px;
+  }
+  /* line 4181, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .views-field-field-athlet-image {
+    width: 40%;
+    padding-left: 20px;
+  }
+  /* line 4185, ../sass/components/_delek.scss */
+  #block-views-oplimic-page-block .views-field-field-athlet-content {
+    font-size: 0.8em;
+    position: relative;
+    top: -20px;
+  }
 }
 
 /* SMACSS theme rules */
