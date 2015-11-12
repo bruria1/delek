@@ -71,12 +71,12 @@
       <td class="center"><?php print render($content['field_solr']); ?></td>
       <td class="center"><?php print render($content['field_solr_2']); ?></td>
     </tr>
-    <tr class="odd">
+    <!-- <tr class="odd">
       <td>דל גרין (אוראה)</td>
       <td class="center"><?php print render($content['field_delgreen']); ?></td>
       <td class="center"><?php print render($content['field_delgreen_2']); ?></td>
-    </tr>
-    <tr class="even">
+    </tr> -->
+    <tr class="odd">
       <td>גפ"מ אוטומטיבי</td>
       <td class="center"><?php print render($content['field_gapam']); ?></td>
       <td class="center"><?php print render($content['field_gapam_2']); ?></td>

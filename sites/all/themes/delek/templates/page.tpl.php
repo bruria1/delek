@@ -7,6 +7,11 @@
  * @see https://drupal.org/node/1728148
  */
 ?>
+<div id="bg-top"></div>
+
+<div class="circle">
+    <a href="http://menta.delek.co.il/node/380" target="_blank">מבצעי מנטה</a>
+</div>
 
 <div id="full-width">
   <div id="top">
