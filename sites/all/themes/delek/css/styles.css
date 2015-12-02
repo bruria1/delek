@@ -4405,35 +4405,68 @@ nav.mm-menu.mm-basic {
 }
 
 /* line 2102, ../sass/components/_delek.scss */
+.page-node-21 #main {
+  width: 100%;
+}
+
+/* line 2107, ../sass/components/_delek.scss */
+#block-views-roles-block-1 {
+  width: 60%;
+  float: right;
+}
+@media (max-width: 767px) {
+  /* line 2107, ../sass/components/_delek.scss */
+  #block-views-roles-block-1 {
+    width: 100%;
+  }
+}
+
+/* line 2114, ../sass/components/_delek.scss */
+#block-block-15 {
+  width: 30%;
+  float: left;
+}
+@media (max-width: 767px) {
+  /* line 2114, ../sass/components/_delek.scss */
+  #block-block-15 {
+    width: 100%;
+  }
+}
+/* line 2120, ../sass/components/_delek.scss */
 #block-block-15 h2 {
   font-family: Ad-light, arial;
-  font-size: 55px !important;
-  line-height: 52px;
+  font-size: 40px !important;
+  line-height: 38px;
   font-weight: normal;
   letter-spacing: -3px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  margin-top: 0px;
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 2102, ../sass/components/_delek.scss */
+  /* line 2120, ../sass/components/_delek.scss */
   #block-block-15 h2 {
     font-size: 65px !important;
     line-height: 62px;
   }
 }
-/* line 2116, ../sass/components/_delek.scss */
+@media (max-width: 767px) {
+  /* line 2120, ../sass/components/_delek.scss */
+  #block-block-15 h2 {
+    margin-top: 20px;
+  }
+}
+/* line 2136, ../sass/components/_delek.scss */
 #block-block-15 div {
   font-size: 29px;
   line-height: 45px;
 }
-/* line 2120, ../sass/components/_delek.scss */
+/* line 2140, ../sass/components/_delek.scss */
 #block-block-15 .not-bold {
   font-family: Ad-regular, arial !important;
   font-size: 17px !important;
 }
 @media (max-width: 767px) {
-  /* line 2120, ../sass/components/_delek.scss */
+  /* line 2140, ../sass/components/_delek.scss */
   #block-block-15 .not-bold {
     font-size: 29px !important;
     line-height: 45px !important;
@@ -4441,24 +4474,24 @@ nav.mm-menu.mm-basic {
 }
 
 /********  Subsidiaries  & services**********/
-/* line 2133, ../sass/components/_delek.scss */
+/* line 2153, ../sass/components/_delek.scss */
 #block-views-subsidiaries-block-1 .views-field-view-node, #block-views-services-block-1 .views-field-view-node {
   text-align: left;
   margin-top: 5px;
   font-size: 16px;
 }
-/* line 2137, ../sass/components/_delek.scss */
+/* line 2157, ../sass/components/_delek.scss */
 #block-views-subsidiaries-block-1 .views-field-view-node a, #block-views-services-block-1 .views-field-view-node a {
   font-family: Ad-bold, arial;
 }
 @media (max-width: 767px) {
-  /* line 2133, ../sass/components/_delek.scss */
+  /* line 2153, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-view-node, #block-views-services-block-1 .views-field-view-node {
     float: left;
     font-size: 0;
     margin-top: -10px;
   }
-  /* line 2144, ../sass/components/_delek.scss */
+  /* line 2164, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-view-node a, #block-views-services-block-1 .views-field-view-node a {
     background: url("../images/arrow-gray.png") no-repeat left center;
     height: 61px;
@@ -4468,31 +4501,31 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 2133, ../sass/components/_delek.scss */
+  /* line 2153, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-view-node, #block-views-services-block-1 .views-field-view-node {
     margin-top: -6px;
   }
 }
 @media (max-width: 480px) {
-  /* line 2133, ../sass/components/_delek.scss */
+  /* line 2153, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-view-node, #block-views-services-block-1 .views-field-view-node {
     font-size: 0;
     left: 28px;
     margin-top: 13px;
     position: absolute;
   }
-  /* line 2160, ../sass/components/_delek.scss */
+  /* line 2180, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-view-node a, #block-views-services-block-1 .views-field-view-node a {
     background-size: 70%;
   }
 }
-/* line 2166, ../sass/components/_delek.scss */
+/* line 2186, ../sass/components/_delek.scss */
 #block-views-subsidiaries-block-1 .views-field-field-image, #block-views-services-block-1 .views-field-field-image {
   width: 23.5%;
   float: right;
 }
 @media (max-width: 767px) {
-  /* line 2166, ../sass/components/_delek.scss */
+  /* line 2186, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-field-image, #block-views-services-block-1 .views-field-field-image {
     width: 135px;
     height: auto;
@@ -4500,23 +4533,23 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 480px) {
-  /* line 2166, ../sass/components/_delek.scss */
+  /* line 2186, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-field-image, #block-views-services-block-1 .views-field-field-image {
     width: 77px;
   }
 }
-/* line 2177, ../sass/components/_delek.scss */
+/* line 2197, ../sass/components/_delek.scss */
 #block-views-subsidiaries-block-1 .views-field-field-image img, #block-views-services-block-1 .views-field-field-image img {
   float: left;
   width: 94%;
 }
 @media (max-width: 767px) {
-  /* line 2177, ../sass/components/_delek.scss */
+  /* line 2197, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-field-image img, #block-views-services-block-1 .views-field-field-image img {
     width: 100%;
   }
 }
-/* line 2185, ../sass/components/_delek.scss */
+/* line 2205, ../sass/components/_delek.scss */
 #block-views-subsidiaries-block-1 .views-row, #block-views-services-block-1 .views-row {
   width: 48%;
   float: right;
@@ -4524,7 +4557,7 @@ nav.mm-menu.mm-basic {
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  /* line 2185, ../sass/components/_delek.scss */
+  /* line 2205, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-row, #block-views-services-block-1 .views-row {
     width: 100%;
     border-bottom: 3px solid #e6e6e6;
@@ -4532,23 +4565,23 @@ nav.mm-menu.mm-basic {
     margin-bottom: 20px;
   }
 }
-/* line 2197, ../sass/components/_delek.scss */
+/* line 2217, ../sass/components/_delek.scss */
 #block-views-subsidiaries-block-1 .views-row-odd, #block-views-services-block-1 .views-row-odd {
   margin-left: 4%;
 }
 @media (max-width: 767px) {
-  /* line 2197, ../sass/components/_delek.scss */
+  /* line 2217, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-row-odd, #block-views-services-block-1 .views-row-odd {
     margin-left: 0;
   }
 }
-/* line 2203, ../sass/components/_delek.scss */
+/* line 2223, ../sass/components/_delek.scss */
 #block-views-subsidiaries-block-1 .views-field-field-teaser-bat, #block-views-subsidiaries-block-1 .views-field-title, #block-views-subsidiaries-block-1 .views-field-field-description, #block-views-services-block-1 .views-field-field-teaser-bat, #block-views-services-block-1 .views-field-title, #block-views-services-block-1 .views-field-field-description {
   padding-right: 18px;
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  /* line 2203, ../sass/components/_delek.scss */
+  /* line 2223, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-field-teaser-bat, #block-views-subsidiaries-block-1 .views-field-title, #block-views-subsidiaries-block-1 .views-field-field-description, #block-views-services-block-1 .views-field-field-teaser-bat, #block-views-services-block-1 .views-field-title, #block-views-services-block-1 .views-field-field-description {
     float: right;
     width: 50%;
@@ -4556,31 +4589,31 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 480px) {
-  /* line 2203, ../sass/components/_delek.scss */
+  /* line 2223, ../sass/components/_delek.scss */
   #block-views-subsidiaries-block-1 .views-field-field-teaser-bat, #block-views-subsidiaries-block-1 .views-field-title, #block-views-subsidiaries-block-1 .views-field-field-description, #block-views-services-block-1 .views-field-field-teaser-bat, #block-views-services-block-1 .views-field-title, #block-views-services-block-1 .views-field-field-description {
     height: 60px;
   }
 }
 
-/* line 2220, ../sass/components/_delek.scss */
+/* line 2240, ../sass/components/_delek.scss */
 #block-views-subsidiaries-block-1 .views-row-2 .views-field-field-image img, #block-views-subsidiaries-block-1 .views-row-3 .views-field-field-image img {
   float: right;
   width: 69%;
   padding-right: 4px;
 }
 
-/* line 2229, ../sass/components/_delek.scss */
+/* line 2249, ../sass/components/_delek.scss */
 #block-views-services-block-1 {
   clear: both;
 }
-/* line 2231, ../sass/components/_delek.scss */
+/* line 2251, ../sass/components/_delek.scss */
 #block-views-services-block-1 .views-field-title {
   height: auto;
   font-size: 29px;
   line-height: 29px;
 }
 @media (max-width: 480px) {
-  /* line 2231, ../sass/components/_delek.scss */
+  /* line 2251, ../sass/components/_delek.scss */
   #block-views-services-block-1 .views-field-title {
     font-size: 21px;
     line-height: 21px;
@@ -4588,37 +4621,37 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 2231, ../sass/components/_delek.scss */
+  /* line 2251, ../sass/components/_delek.scss */
   #block-views-services-block-1 .views-field-title {
     padding-top: 14px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2249, ../sass/components/_delek.scss */
+  /* line 2269, ../sass/components/_delek.scss */
   .page-node-12 #main, .page-node-179 #main {
     width: 100%;
   }
 }
 
 /********  Subsidiaries  - project page**********/
-/* line 2258, ../sass/components/_delek.scss */
+/* line 2278, ../sass/components/_delek.scss */
 .node-type-subsidiary h1#page-title {
   display: none;
 }
-/* line 2261, ../sass/components/_delek.scss */
+/* line 2281, ../sass/components/_delek.scss */
 .node-type-subsidiary .mobile {
   display: none;
 }
 @media (max-width: 767px) {
-  /* line 2261, ../sass/components/_delek.scss */
+  /* line 2281, ../sass/components/_delek.scss */
   .node-type-subsidiary .mobile {
     display: block;
     margin-bottom: 30px;
   }
 }
 @media (max-width: 480px) {
-  /* line 2261, ../sass/components/_delek.scss */
+  /* line 2281, ../sass/components/_delek.scss */
   .node-type-subsidiary .mobile {
     width: 180px;
     height: auto;
@@ -4626,21 +4659,21 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 767px) {
-  /* line 2273, ../sass/components/_delek.scss */
+  /* line 2293, ../sass/components/_delek.scss */
   .node-type-subsidiary .image {
     display: none;
   }
 }
-/* line 2277, ../sass/components/_delek.scss */
+/* line 2297, ../sass/components/_delek.scss */
 .node-type-subsidiary .image img {
   width: 125px;
   height: auto;
 }
-/* line 2282, ../sass/components/_delek.scss */
+/* line 2302, ../sass/components/_delek.scss */
 .node-type-subsidiary #main {
   width: 100%;
 }
-/* line 2285, ../sass/components/_delek.scss */
+/* line 2305, ../sass/components/_delek.scss */
 .node-type-subsidiary .left {
   width: 200px;
   float: left;
@@ -4648,16 +4681,16 @@ nav.mm-menu.mm-basic {
   padding-right: 14px;
 }
 @media (max-width: 767px) {
-  /* line 2285, ../sass/components/_delek.scss */
+  /* line 2305, ../sass/components/_delek.scss */
   .node-type-subsidiary .left {
     width: 100%;
   }
 }
-/* line 2293, ../sass/components/_delek.scss */
+/* line 2313, ../sass/components/_delek.scss */
 .node-type-subsidiary .left img {
   margin-right: -8px;
 }
-/* line 2296, ../sass/components/_delek.scss */
+/* line 2316, ../sass/components/_delek.scss */
 .node-type-subsidiary .left .title {
   font-family: Ad-light, arial;
   font-size: 30px;
@@ -4665,7 +4698,7 @@ nav.mm-menu.mm-basic {
   margin-top: 26px;
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 2296, ../sass/components/_delek.scss */
+  /* line 2316, ../sass/components/_delek.scss */
   .node-type-subsidiary .left .title {
     font-size: 55px;
     line-height: 42px;
@@ -4674,7 +4707,7 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 480px) {
-  /* line 2296, ../sass/components/_delek.scss */
+  /* line 2316, ../sass/components/_delek.scss */
   .node-type-subsidiary .left .title {
     font-size: 45px;
     line-height: 32px;
@@ -4682,17 +4715,17 @@ nav.mm-menu.mm-basic {
     margin-bottom: -10px;
   }
 }
-/* line 2313, ../sass/components/_delek.scss */
+/* line 2333, ../sass/components/_delek.scss */
 .node-type-subsidiary .left .field-name-field-contact-company, .node-type-subsidiary .left .field-name-field-mifrat {
   font-size: 16px;
   line-height: 18px;
 }
-/* line 2316, ../sass/components/_delek.scss */
+/* line 2336, ../sass/components/_delek.scss */
 .node-type-subsidiary .left .field-name-field-contact-company strong, .node-type-subsidiary .left .field-name-field-mifrat strong {
   font-size: 16px;
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 2313, ../sass/components/_delek.scss */
+  /* line 2333, ../sass/components/_delek.scss */
   .node-type-subsidiary .left .field-name-field-contact-company, .node-type-subsidiary .left .field-name-field-mifrat {
     font-size: 21px;
     line-height: 30px;
@@ -4700,26 +4733,26 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 480px) {
-  /* line 2313, ../sass/components/_delek.scss */
+  /* line 2333, ../sass/components/_delek.scss */
   .node-type-subsidiary .left .field-name-field-contact-company, .node-type-subsidiary .left .field-name-field-mifrat {
     font-size: 17px;
     line-height: 25px;
     margin-top: 20px;
   }
 }
-/* line 2330, ../sass/components/_delek.scss */
+/* line 2350, ../sass/components/_delek.scss */
 .node-type-subsidiary .left .field-name-field-link-company {
   font-family: Ad-bold, arial;
   margin: 20px 0 -6px;
 }
 @media (max-width: 767px) {
-  /* line 2330, ../sass/components/_delek.scss */
+  /* line 2350, ../sass/components/_delek.scss */
   .node-type-subsidiary .left .field-name-field-link-company {
     font-family: Ad-regular, arial;
   }
 }
 @media (max-width: 767px) {
-  /* line 2336, ../sass/components/_delek.scss */
+  /* line 2356, ../sass/components/_delek.scss */
   .node-type-subsidiary .left .field-name-field-link-company a {
     color: #009895;
     border: 2px solid #009895;
@@ -4733,62 +4766,62 @@ nav.mm-menu.mm-basic {
     text-align: center;
   }
 }
-/* line 2350, ../sass/components/_delek.scss */
+/* line 2370, ../sass/components/_delek.scss */
 .node-type-subsidiary .left .field-name-field-link-company a:hover {
   background-color: #f2fbfb;
 }
-/* line 2353, ../sass/components/_delek.scss */
+/* line 2373, ../sass/components/_delek.scss */
 .node-type-subsidiary .left .field-name-field-link-company a:after {
   content: " >";
 }
 @media (max-width: 767px) {
-  /* line 2353, ../sass/components/_delek.scss */
+  /* line 2373, ../sass/components/_delek.scss */
   .node-type-subsidiary .left .field-name-field-link-company a:after {
     content: none;
   }
 }
-/* line 2361, ../sass/components/_delek.scss */
+/* line 2381, ../sass/components/_delek.scss */
 .node-type-subsidiary .right {
   width: 70%;
   float: right;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2361, ../sass/components/_delek.scss */
+  /* line 2381, ../sass/components/_delek.scss */
   .node-type-subsidiary .right {
     width: 60%;
   }
 }
 @media (max-width: 767px) {
-  /* line 2361, ../sass/components/_delek.scss */
+  /* line 2381, ../sass/components/_delek.scss */
   .node-type-subsidiary .right {
     width: 100%;
   }
 }
 
-/* line 2373, ../sass/components/_delek.scss */
+/* line 2393, ../sass/components/_delek.scss */
 .page-node-11 strong {
   font-weight: bold;
 }
 
-/* line 2378, ../sass/components/_delek.scss */
+/* line 2398, ../sass/components/_delek.scss */
 .page-node-676 .field-type-image img, .page-node-677 .field-type-image img {
   width: 72px;
 }
 
 /******** content bottom area  **********/
-/* line 2385, ../sass/components/_delek.scss */
+/* line 2405, ../sass/components/_delek.scss */
 #content-bottom {
   margin-top: 32px;
   background-color: #f7f7f7;
 }
-/* line 2388, ../sass/components/_delek.scss */
+/* line 2408, ../sass/components/_delek.scss */
 #content-bottom .region-content-bottom {
   margin: 0 auto;
   max-width: 1310px;
   padding: 0 3%;
   width: 94%;
 }
-/* line 2394, ../sass/components/_delek.scss */
+/* line 2414, ../sass/components/_delek.scss */
 #content-bottom .block-block {
   width: 80%;
   padding: 0 3%;
@@ -4796,51 +4829,51 @@ nav.mm-menu.mm-basic {
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  /* line 2394, ../sass/components/_delek.scss */
+  /* line 2414, ../sass/components/_delek.scss */
   #content-bottom .block-block {
     width: 94%;
   }
 }
-/* line 2402, ../sass/components/_delek.scss */
+/* line 2422, ../sass/components/_delek.scss */
 #content-bottom .block-block .block-title, #content-bottom .block-block .title {
   font-family: Ad-light, arial;
   font-size: 30px;
   font-weight: normal;
 }
-/* line 2406, ../sass/components/_delek.scss */
+/* line 2426, ../sass/components/_delek.scss */
 #content-bottom .block-block .block-title p, #content-bottom .block-block .title p {
   margin: 6px 0 20px;
 }
-/* line 2410, ../sass/components/_delek.scss */
+/* line 2430, ../sass/components/_delek.scss */
 #content-bottom .block-block .right {
   float: right;
   width: 48%;
   margin-left: 4%;
 }
 @media (max-width: 767px) {
-  /* line 2410, ../sass/components/_delek.scss */
+  /* line 2430, ../sass/components/_delek.scss */
   #content-bottom .block-block .right {
     width: 100%;
   }
 }
-/* line 2417, ../sass/components/_delek.scss */
+/* line 2437, ../sass/components/_delek.scss */
 #content-bottom .block-block .left {
   width: 48%;
   float: right;
 }
 @media (max-width: 767px) {
-  /* line 2417, ../sass/components/_delek.scss */
+  /* line 2437, ../sass/components/_delek.scss */
   #content-bottom .block-block .left {
     width: 100%;
   }
 }
-/* line 2424, ../sass/components/_delek.scss */
+/* line 2444, ../sass/components/_delek.scss */
 #content-bottom .block-block .explain {
   font-size: 15px;
 }
 
 /*********** investor relation page ***********/
-/* line 2432, ../sass/components/_delek.scss */
+/* line 2452, ../sass/components/_delek.scss */
 .page-node-22 {
   /*  #main{
       width: 100%;
@@ -4858,7 +4891,7 @@ nav.mm-menu.mm-basic {
       }
     }*/
 }
-/* line 2450, ../sass/components/_delek.scss */
+/* line 2470, ../sass/components/_delek.scss */
 .page-node-22 #block-block-13 .right strong, .page-node-22 #block-block-13 .left strong {
   margin-top: -10px;
   display: block;
@@ -4945,22 +4978,22 @@ nav.mm-menu.mm-basic {
 }
 */
 /******** dalkan - main   ***********/
-/* line 2541, ../sass/components/_delek.scss */
+/* line 2561, ../sass/components/_delek.scss */
 .page-node-170 #page-title {
   display: none;
 }
-/* line 2544, ../sass/components/_delek.scss */
+/* line 2564, ../sass/components/_delek.scss */
 .page-node-170 #main {
   width: 100%;
   padding: 0;
 }
 @media (max-width: 767px) {
-  /* line 2548, ../sass/components/_delek.scss */
+  /* line 2568, ../sass/components/_delek.scss */
   .page-node-170 #page {
     width: 100%;
     padding: 0;
   }
-  /* line 2552, ../sass/components/_delek.scss */
+  /* line 2572, ../sass/components/_delek.scss */
   .page-node-170 #page #content {
     width: 100%;
     padding: 0;
@@ -4968,33 +5001,33 @@ nav.mm-menu.mm-basic {
 }
 
 @media (max-width: 767px) {
-  /* line 2560, ../sass/components/_delek.scss */
+  /* line 2580, ../sass/components/_delek.scss */
   .front #page {
     width: 100%;
     padding: 0;
   }
-  /* line 2564, ../sass/components/_delek.scss */
+  /* line 2584, ../sass/components/_delek.scss */
   .front #page #content {
     width: 100%;
     padding: 0;
   }
 }
 
-/* line 2571, ../sass/components/_delek.scss */
+/* line 2591, ../sass/components/_delek.scss */
 .page-node-170 #block-views-exp-stations-page-2 {
   background: url("../images/search-dalkan.png") no-repeat 20px 22px #009895;
 }
-/* line 2573, ../sass/components/_delek.scss */
+/* line 2593, ../sass/components/_delek.scss */
 .page-node-170 #block-views-exp-stations-page-2 input#edit-submit-stations {
   background-color: #33adaa;
 }
-/* line 2576, ../sass/components/_delek.scss */
+/* line 2596, ../sass/components/_delek.scss */
 .page-node-170 #block-views-exp-stations-page-2 input#edit-submit-stations:hover {
   background-color: #b3e0df;
   color: #009895;
 }
 
-/* line 2582, ../sass/components/_delek.scss */
+/* line 2602, ../sass/components/_delek.scss */
 #block-block-7, #block-block-8 {
   background: url("../images/dalkan-customer.png") no-repeat 20px 22px #009895;
   width: 36%;
@@ -5005,13 +5038,13 @@ nav.mm-menu.mm-basic {
   margin-left: 2%;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2582, ../sass/components/_delek.scss */
+  /* line 2602, ../sass/components/_delek.scss */
   #block-block-7, #block-block-8 {
     height: 218px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2582, ../sass/components/_delek.scss */
+  /* line 2602, ../sass/components/_delek.scss */
   #block-block-7, #block-block-8 {
     width: 49% !important;
     float: right;
@@ -5021,17 +5054,17 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 480px) {
-  /* line 2582, ../sass/components/_delek.scss */
+  /* line 2602, ../sass/components/_delek.scss */
   #block-block-7, #block-block-8 {
     width: 100% !important;
     margin-bottom: 10px;
   }
 }
-/* line 2604, ../sass/components/_delek.scss */
+/* line 2624, ../sass/components/_delek.scss */
 #block-block-7 p, #block-block-8 p {
   margin: 0;
 }
-/* line 2607, ../sass/components/_delek.scss */
+/* line 2627, ../sass/components/_delek.scss */
 #block-block-7 .first, #block-block-8 .first {
   font-size: 29px;
   margin-bottom: 14px;
@@ -5041,14 +5074,14 @@ nav.mm-menu.mm-basic {
   line-height: 33px;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2607, ../sass/components/_delek.scss */
+  /* line 2627, ../sass/components/_delek.scss */
   #block-block-7 .first, #block-block-8 .first {
     font-size: 20px;
     line-height: 20px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2607, ../sass/components/_delek.scss */
+  /* line 2627, ../sass/components/_delek.scss */
   #block-block-7 .first, #block-block-8 .first {
     padding: 7% 68px 0 15px;
     text-align: right;
@@ -5056,46 +5089,46 @@ nav.mm-menu.mm-basic {
     line-height: 27px;
   }
 }
-/* line 2625, ../sass/components/_delek.scss */
+/* line 2645, ../sass/components/_delek.scss */
 #block-block-7 .second, #block-block-8 .second {
   font-size: 55px;
   font-family: Ad-regular, arial;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2625, ../sass/components/_delek.scss */
+  /* line 2645, ../sass/components/_delek.scss */
   #block-block-7 .second, #block-block-8 .second {
     font-size: 40px;
   }
-  /* line 2630, ../sass/components/_delek.scss */
+  /* line 2650, ../sass/components/_delek.scss */
   #block-block-7 .second p, #block-block-8 .second p {
     margin: 0;
   }
 }
 @media (max-width: 767px) {
-  /* line 2625, ../sass/components/_delek.scss */
+  /* line 2645, ../sass/components/_delek.scss */
   #block-block-7 .second, #block-block-8 .second {
     padding: 0 68px 0 15px;
     text-align: right;
     font-size: 50px;
   }
 }
-/* line 2640, ../sass/components/_delek.scss */
+/* line 2660, ../sass/components/_delek.scss */
 #block-block-7 .content, #block-block-8 .content {
   padding: 43px 30px 0px;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2640, ../sass/components/_delek.scss */
+  /* line 2660, ../sass/components/_delek.scss */
   #block-block-7 .content, #block-block-8 .content {
     padding: 47 20px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2640, ../sass/components/_delek.scss */
+  /* line 2660, ../sass/components/_delek.scss */
   #block-block-7 .content, #block-block-8 .content {
     padding: 0;
   }
 }
-/* line 2649, ../sass/components/_delek.scss */
+/* line 2669, ../sass/components/_delek.scss */
 #block-block-7 .button a, #block-block-8 .button a {
   width: 167px;
   max-width: 100%;
@@ -5117,7 +5150,7 @@ nav.mm-menu.mm-basic {
   background-color: #b3e0df;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2649, ../sass/components/_delek.scss */
+  /* line 2669, ../sass/components/_delek.scss */
   #block-block-7 .button a, #block-block-8 .button a {
     margin-top: 31px;
     font-size: 15px;
@@ -5127,7 +5160,7 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 767px) {
-  /* line 2649, ../sass/components/_delek.scss */
+  /* line 2669, ../sass/components/_delek.scss */
   #block-block-7 .button a, #block-block-8 .button a {
     width: 84%;
     height: 42px;
@@ -5137,26 +5170,26 @@ nav.mm-menu.mm-basic {
   }
 }
 
-/* line 2673, ../sass/components/_delek.scss */
+/* line 2693, ../sass/components/_delek.scss */
 .ff #block-block-7 .button a, .ff #block-block-8 .button a {
   padding-top: 9px;
   height: 29px;
 }
 
-/* line 2679, ../sass/components/_delek.scss */
+/* line 2699, ../sass/components/_delek.scss */
 #block-block-8 {
   background: url("../images/dalkan-i.png") no-repeat 20px 22px #009895;
   margin-left: 0;
   width: 30%;
 }
 @media (max-width: 767px) {
-  /* line 2679, ../sass/components/_delek.scss */
+  /* line 2699, ../sass/components/_delek.scss */
   #block-block-8 {
     float: left;
     background-position: 94% 8%;
   }
 }
-/* line 2687, ../sass/components/_delek.scss */
+/* line 2707, ../sass/components/_delek.scss */
 #block-block-8 .first {
   font-size: 55px;
   font-family: Ad-regular, arial;
@@ -5164,72 +5197,72 @@ nav.mm-menu.mm-basic {
   margin-bottom: 0;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2687, ../sass/components/_delek.scss */
+  /* line 2707, ../sass/components/_delek.scss */
   #block-block-8 .first {
     font-size: 40px;
     line-height: 40px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2687, ../sass/components/_delek.scss */
+  /* line 2707, ../sass/components/_delek.scss */
   #block-block-8 .first {
     font-size: 50px;
     line-height: 46px;
   }
 }
-/* line 2701, ../sass/components/_delek.scss */
+/* line 2721, ../sass/components/_delek.scss */
 #block-block-8 .second {
   font-size: 29px;
   line-height: 30px;
   font-family: Ad-bold, arial;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2701, ../sass/components/_delek.scss */
+  /* line 2721, ../sass/components/_delek.scss */
   #block-block-8 .second {
     font-size: 20px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2701, ../sass/components/_delek.scss */
+  /* line 2721, ../sass/components/_delek.scss */
   #block-block-8 .second {
     font-size: 26px;
     line-height: 27px;
   }
 }
-/* line 2713, ../sass/components/_delek.scss */
+/* line 2733, ../sass/components/_delek.scss */
 #block-block-8 .button a {
   margin-top: 65px;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 2713, ../sass/components/_delek.scss */
+  /* line 2733, ../sass/components/_delek.scss */
   #block-block-8 .button a {
     margin-top: 30px;
   }
 }
 @media (max-width: 767px) {
-  /* line 2713, ../sass/components/_delek.scss */
+  /* line 2733, ../sass/components/_delek.scss */
   #block-block-8 .button a {
     margin-top: 24px;
   }
 }
 
 /******** adbantage - desktop  ********/
-/* line 2726, ../sass/components/_delek.scss */
+/* line 2746, ../sass/components/_delek.scss */
 #block-quicktabs-advantages {
   clear: both;
   margin-top: 10px;
 }
 @media (max-width: 767px) {
-  /* line 2726, ../sass/components/_delek.scss */
+  /* line 2746, ../sass/components/_delek.scss */
   #block-quicktabs-advantages {
     display: none;
   }
 }
-/* line 2733, ../sass/components/_delek.scss */
+/* line 2753, ../sass/components/_delek.scss */
 #block-quicktabs-advantages .item-list ul {
   padding: 0;
 }
-/* line 2736, ../sass/components/_delek.scss */
+/* line 2756, ../sass/components/_delek.scss */
 #block-quicktabs-advantages .item-list li {
   width: 24%;
   display: inline-block;
@@ -5238,7 +5271,7 @@ nav.mm-menu.mm-basic {
   padding: 0;
   margin: 0 auto;
 }
-/* line 2743, ../sass/components/_delek.scss */
+/* line 2763, ../sass/components/_delek.scss */
 #block-quicktabs-advantages .item-list li a {
   width: 108px;
   height: 62px;
@@ -5253,45 +5286,45 @@ nav.mm-menu.mm-basic {
   padding: 43px 20px;
   line-height: 35px;
 }
-/* line 2758, ../sass/components/_delek.scss */
+/* line 2778, ../sass/components/_delek.scss */
 #block-quicktabs-advantages .item-list li.active, #block-quicktabs-advantages .item-list li.active:hover {
   background: url("../images/triangle.png") no-repeat center bottom;
   height: 160px;
 }
-/* line 2761, ../sass/components/_delek.scss */
+/* line 2781, ../sass/components/_delek.scss */
 #block-quicktabs-advantages .item-list li.active a, #block-quicktabs-advantages .item-list li.active:hover a {
   color: #fff;
   background-color: #c2111d;
 }
-/* line 2766, ../sass/components/_delek.scss */
+/* line 2786, ../sass/components/_delek.scss */
 #block-quicktabs-advantages .item-list li:hover a {
   color: #4d4d4d;
 }
-/* line 2770, ../sass/components/_delek.scss */
+/* line 2790, ../sass/components/_delek.scss */
 #block-quicktabs-advantages #quicktabs-container-advantages {
   width: 68%;
 }
 
-/* line 2777, ../sass/components/_delek.scss */
+/* line 2797, ../sass/components/_delek.scss */
 .ie8 #block-quicktabs-advantages .item-list li {
   background: url("../images/gray-circle.jpg") no-repeat center bottom transparent;
 }
-/* line 2779, ../sass/components/_delek.scss */
+/* line 2799, ../sass/components/_delek.scss */
 .ie8 #block-quicktabs-advantages .item-list li a {
   background-color: transparent;
 }
-/* line 2783, ../sass/components/_delek.scss */
+/* line 2803, ../sass/components/_delek.scss */
 .ie8 #block-quicktabs-advantages .item-list li.active {
   background: url("../images/red-circle.jpg") no-repeat center bottom transparent;
 }
-/* line 2786, ../sass/components/_delek.scss */
+/* line 2806, ../sass/components/_delek.scss */
 .ie8 #block-quicktabs-advantages .item-list ul li a {
   font-size: 25px;
   line-height: 28px;
 }
 
 /********* advantage - mobile  *****/
-/* line 2795, ../sass/components/_delek.scss */
+/* line 2815, ../sass/components/_delek.scss */
 #block-views-advantage-block {
   display: none;
   width: 94%;
@@ -5299,17 +5332,17 @@ nav.mm-menu.mm-basic {
   clear: both;
 }
 @media (max-width: 767px) {
-  /* line 2795, ../sass/components/_delek.scss */
+  /* line 2815, ../sass/components/_delek.scss */
   #block-views-advantage-block {
     display: block;
   }
 }
-/* line 2803, ../sass/components/_delek.scss */
+/* line 2823, ../sass/components/_delek.scss */
 #block-views-advantage-block .views-field-title {
   background: url("../images/triangle.png") no-repeat center bottom;
   height: 160px;
 }
-/* line 2806, ../sass/components/_delek.scss */
+/* line 2826, ../sass/components/_delek.scss */
 #block-views-advantage-block .views-field-title a {
   width: 108px;
   height: 62px;
@@ -5327,15 +5360,15 @@ nav.mm-menu.mm-basic {
 }
 
 /*********webform block  *****/
-/* line 2827, ../sass/components/_delek.scss */
+/* line 2847, ../sass/components/_delek.scss */
 .block-webform h2, .webform-client-form h2 {
   margin-bottom: 0px !important;
 }
-/* line 2830, ../sass/components/_delek.scss */
+/* line 2850, ../sass/components/_delek.scss */
 .block-webform .form-required, .block-webform .grippie, .webform-client-form .form-required, .webform-client-form .grippie {
   display: none;
 }
-/* line 2833, ../sass/components/_delek.scss */
+/* line 2853, ../sass/components/_delek.scss */
 .block-webform input, .webform-client-form input {
   height: 40px;
   width: 100%;
@@ -5343,18 +5376,18 @@ nav.mm-menu.mm-basic {
   box-shadow: none;
   padding-right: 10px;
 }
-/* line 2840, ../sass/components/_delek.scss */
+/* line 2860, ../sass/components/_delek.scss */
 .block-webform textarea, .webform-client-form textarea {
   width: 100%;
   border: 1px solid #e1e1e1;
   padding: 10px;
 }
-/* line 2845, ../sass/components/_delek.scss */
+/* line 2865, ../sass/components/_delek.scss */
 .block-webform label, .webform-client-form label {
   font-weight: normal;
   padding: 12px;
 }
-/* line 2849, ../sass/components/_delek.scss */
+/* line 2869, ../sass/components/_delek.scss */
 .block-webform input.form-submit, .webform-client-form input.form-submit {
   clear: both;
   width: 167px;
@@ -5380,7 +5413,7 @@ nav.mm-menu.mm-basic {
   background-color: #f2fbfb;
 }
 @media (max-width: 767px) {
-  /* line 2849, ../sass/components/_delek.scss */
+  /* line 2869, ../sass/components/_delek.scss */
   .block-webform input.form-submit, .webform-client-form input.form-submit {
     float: none;
     width: 200px;
@@ -5388,60 +5421,60 @@ nav.mm-menu.mm-basic {
     margin-top: 80px;
   }
 }
-/* line 2865, ../sass/components/_delek.scss */
+/* line 2885, ../sass/components/_delek.scss */
 .block-webform .form-item, .webform-client-form .form-item {
   margin-top: 10px;
   margin-bottom: 0;
 }
 
-/* line 2872, ../sass/components/_delek.scss */
+/* line 2892, ../sass/components/_delek.scss */
 .ff .block-webform input.form-submit, .ff .webform-client-form input.form-submit {
   padding: 0;
 }
 
 /******* checkbox  **********/
-/* line 2879, ../sass/components/_delek.scss */
+/* line 2899, ../sass/components/_delek.scss */
 .bef-checkboxes input, #webform-component-takanon input {
   float: right;
   height: 18px !important;
   width: 10px !important;
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 2879, ../sass/components/_delek.scss */
+  /* line 2899, ../sass/components/_delek.scss */
   .bef-checkboxes input, #webform-component-takanon input {
     height: 26px !important;
   }
 }
 @media (max-width: 480px) {
-  /* line 2879, ../sass/components/_delek.scss */
+  /* line 2899, ../sass/components/_delek.scss */
   .bef-checkboxes input, #webform-component-takanon input {
     height: 20px !important;
   }
 }
 
-/* line 2893, ../sass/components/_delek.scss */
+/* line 2913, ../sass/components/_delek.scss */
 #edit-submitted-takanon label {
   font-size: 16px;
   position: relative;
 }
 
-/* line 2899, ../sass/components/_delek.scss */
+/* line 2919, ../sass/components/_delek.scss */
 #webform-component-takanon {
   float: right;
   margin: 1px 0 20px 0;
 }
 
-/* line 2904, ../sass/components/_delek.scss */
+/* line 2924, ../sass/components/_delek.scss */
 #webform-component-link-takanon {
   float: right;
   margin: 11px 0 20px 0 !important;
 }
-/* line 2907, ../sass/components/_delek.scss */
+/* line 2927, ../sass/components/_delek.scss */
 #webform-component-link-takanon p {
   font-size: 16px;
   margin: 0;
 }
-/* line 2910, ../sass/components/_delek.scss */
+/* line 2930, ../sass/components/_delek.scss */
 #webform-component-link-takanon p a {
   text-decoration: underline;
 }
@@ -5532,15 +5565,15 @@ nav.mm-menu.mm-basic {
   } 
 }*/
 /********  dalkan - project page **********/
-/* line 3004, ../sass/components/_delek.scss */
+/* line 3024, ../sass/components/_delek.scss */
 .node-type-services #main {
   width: 100%;
 }
-/* line 3007, ../sass/components/_delek.scss */
+/* line 3027, ../sass/components/_delek.scss */
 .node-type-services .menu-mlid-1057 {
   border-bottom: 2px solid #bbe5e5;
 }
-/* line 3010, ../sass/components/_delek.scss */
+/* line 3030, ../sass/components/_delek.scss */
 .node-type-services #block-views-services-block-3, .node-type-services #block-views-files-services-page-block, .node-type-services #block-webform-client-block-691 {
   width: 260px;
   max-width: 100%;
@@ -5550,14 +5583,14 @@ nav.mm-menu.mm-basic {
   margin-bottom: 0;
 }
 @media (max-width: 767px) {
-  /* line 3010, ../sass/components/_delek.scss */
+  /* line 3030, ../sass/components/_delek.scss */
   .node-type-services #block-views-services-block-3, .node-type-services #block-views-files-services-page-block, .node-type-services #block-webform-client-block-691 {
     width: 100%;
     border: none;
     padding: 0;
   }
 }
-/* line 3022, ../sass/components/_delek.scss */
+/* line 3042, ../sass/components/_delek.scss */
 .node-type-services #block-views-services-block-3 .views-field-title, .node-type-services #block-views-services-block-3 .block-title, .node-type-services #block-views-files-services-page-block .views-field-title, .node-type-services #block-views-files-services-page-block .block-title, .node-type-services #block-webform-client-block-691 .views-field-title, .node-type-services #block-webform-client-block-691 .block-title {
   font-family: Ad-light, arial;
   font-size: 30px;
@@ -5567,64 +5600,64 @@ nav.mm-menu.mm-basic {
   line-height: 33px;
 }
 @media (max-width: 767px) {
-  /* line 3031, ../sass/components/_delek.scss */
+  /* line 3051, ../sass/components/_delek.scss */
   .node-type-services #block-views-files-services-page-block {
     display: none;
   }
 }
-/* line 3036, ../sass/components/_delek.scss */
+/* line 3056, ../sass/components/_delek.scss */
 .node-type-services #block-views-services-block-3 {
   margin-top: -58px;
 }
 @media (max-width: 767px) {
-  /* line 3036, ../sass/components/_delek.scss */
+  /* line 3056, ../sass/components/_delek.scss */
   .node-type-services #block-views-services-block-3 {
     display: none;
   }
 }
-/* line 3041, ../sass/components/_delek.scss */
+/* line 3061, ../sass/components/_delek.scss */
 .node-type-services #block-views-services-block-3 .views-field-field-link-stations {
   font-size: 17px;
   margin-top: 22px;
 }
-/* line 3044, ../sass/components/_delek.scss */
+/* line 3064, ../sass/components/_delek.scss */
 .node-type-services #block-views-services-block-3 .views-field-field-link-stations a:hover {
   color: #262626;
 }
-/* line 3047, ../sass/components/_delek.scss */
+/* line 3067, ../sass/components/_delek.scss */
 .node-type-services #block-views-services-block-3 .views-field-field-link-stations a:after {
   content: "   >";
 }
-/* line 3052, ../sass/components/_delek.scss */
+/* line 3072, ../sass/components/_delek.scss */
 .node-type-services #webform-component-service-title {
   display: none;
 }
-/* line 3055, ../sass/components/_delek.scss */
+/* line 3075, ../sass/components/_delek.scss */
 .node-type-services #content article {
   width: 65%;
   float: right;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 3055, ../sass/components/_delek.scss */
+  /* line 3075, ../sass/components/_delek.scss */
   .node-type-services #content article {
     width: 56%;
   }
 }
 @media (max-width: 767px) {
-  /* line 3055, ../sass/components/_delek.scss */
+  /* line 3075, ../sass/components/_delek.scss */
   .node-type-services #content article {
     width: 100%;
   }
 }
-/* line 3065, ../sass/components/_delek.scss */
+/* line 3085, ../sass/components/_delek.scss */
 .node-type-services .views-field-field-files {
   font-size: 14px;
 }
-/* line 3067, ../sass/components/_delek.scss */
+/* line 3087, ../sass/components/_delek.scss */
 .node-type-services .views-field-field-files img {
   display: none;
 }
-/* line 3070, ../sass/components/_delek.scss */
+/* line 3090, ../sass/components/_delek.scss */
 .node-type-services .views-field-field-files a {
   background: url("../images/pdf-icon.png") no-repeat right center;
   height: 24px;
@@ -5634,33 +5667,33 @@ nav.mm-menu.mm-basic {
   color: #262626;
   opacity: 0.8;
 }
-/* line 3079, ../sass/components/_delek.scss */
+/* line 3099, ../sass/components/_delek.scss */
 .node-type-services .views-field-field-files a:hover {
   opacity: 1;
 }
-/* line 3082, ../sass/components/_delek.scss */
+/* line 3102, ../sass/components/_delek.scss */
 .node-type-services .views-field-field-files li {
   list-style: none;
   margin: 0;
 }
-/* line 3086, ../sass/components/_delek.scss */
+/* line 3106, ../sass/components/_delek.scss */
 .node-type-services .views-field-field-files ul {
   margin: 0;
   padding: 0;
 }
 
-/* line 3094, ../sass/components/_delek.scss */
+/* line 3114, ../sass/components/_delek.scss */
 #block-views-link-mobile-service-block {
   display: none;
   clear: both;
 }
 @media (max-width: 767px) {
-  /* line 3094, ../sass/components/_delek.scss */
+  /* line 3114, ../sass/components/_delek.scss */
   #block-views-link-mobile-service-block {
     display: block;
   }
 }
-/* line 3101, ../sass/components/_delek.scss */
+/* line 3121, ../sass/components/_delek.scss */
 #block-views-link-mobile-service-block .views-field-field-link-stations a {
   color: #009895;
   border: 2px solid #009895;
@@ -5673,31 +5706,31 @@ nav.mm-menu.mm-basic {
   line-height: 27px;
   text-align: center;
 }
-/* line 3113, ../sass/components/_delek.scss */
+/* line 3133, ../sass/components/_delek.scss */
 #block-views-link-mobile-service-block .views-field-field-link-stations a:hover {
   background-color: #f2fbfb;
 }
 
 /******** station page  **********/
-/* line 3122, ../sass/components/_delek.scss */
+/* line 3142, ../sass/components/_delek.scss */
 .node-type-station .field-name-field-services .field-item {
   font-size: 0;
   float: right;
   margin-left: 10px;
 }
-/* line 3127, ../sass/components/_delek.scss */
+/* line 3147, ../sass/components/_delek.scss */
 .node-type-station .field-name-field-time {
   clear: both;
 }
 
 /*********** search station  **********/
-/* line 3137, ../sass/components/_delek.scss */
+/* line 3157, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 h2.block-title, .page-stations #block-views-exp-stations-page-1 h2.block-title, .section-stations-dalkan-m #views-exposed-form-stations-page-3 h2.block-title,
 .section-stations-m #views-exposed-form-stations-page-4 h2.block-title, #views-exposed-form-stations-block-1 h2.block-title, #views-exposed-form-stations-block-2 h2.block-title, #views-exposed-form-stations-block-3 h2.block-title,
 #views-exposed-form-stations-block-4 h2.block-title {
   display: none;
 }
-/* line 3140, ../sass/components/_delek.scss */
+/* line 3160, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 input, .page-stations #block-views-exp-stations-page-1 input, .section-stations-dalkan-m #views-exposed-form-stations-page-3 input,
 .section-stations-m #views-exposed-form-stations-page-4 input, #views-exposed-form-stations-block-1 input, #views-exposed-form-stations-block-2 input, #views-exposed-form-stations-block-3 input,
 #views-exposed-form-stations-block-4 input {
@@ -5708,27 +5741,27 @@ nav.mm-menu.mm-basic {
   padding-right: 16px;
 }
 @media (max-width: 767px) {
-  /* line 3140, ../sass/components/_delek.scss */
+  /* line 3160, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 input, .page-stations #block-views-exp-stations-page-1 input, .section-stations-dalkan-m #views-exposed-form-stations-page-3 input,
   .section-stations-m #views-exposed-form-stations-page-4 input, #views-exposed-form-stations-block-1 input, #views-exposed-form-stations-block-2 input, #views-exposed-form-stations-block-3 input,
   #views-exposed-form-stations-block-4 input {
     border: 2px solid #dedede;
   }
 }
-/* line 3150, ../sass/components/_delek.scss */
+/* line 3170, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 #edit-combine-wrapper, .page-stations #block-views-exp-stations-page-1 #edit-combine-wrapper, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-combine-wrapper,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-combine-wrapper, #views-exposed-form-stations-block-1 #edit-combine-wrapper, #views-exposed-form-stations-block-2 #edit-combine-wrapper, #views-exposed-form-stations-block-3 #edit-combine-wrapper,
 #views-exposed-form-stations-block-4 #edit-combine-wrapper {
   padding-right: 0;
 }
 @media (max-width: 767px) {
-  /* line 3150, ../sass/components/_delek.scss */
+  /* line 3170, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-combine-wrapper, .page-stations #block-views-exp-stations-page-1 #edit-combine-wrapper, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-combine-wrapper,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-combine-wrapper, #views-exposed-form-stations-block-1 #edit-combine-wrapper, #views-exposed-form-stations-block-2 #edit-combine-wrapper, #views-exposed-form-stations-block-3 #edit-combine-wrapper,
   #views-exposed-form-stations-block-4 #edit-combine-wrapper {
     width: 100%;
   }
-  /* line 3154, ../sass/components/_delek.scss */
+  /* line 3174, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-combine-wrapper input, .page-stations #block-views-exp-stations-page-1 #edit-combine-wrapper input, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-combine-wrapper input,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-combine-wrapper input, #views-exposed-form-stations-block-1 #edit-combine-wrapper input, #views-exposed-form-stations-block-2 #edit-combine-wrapper input, #views-exposed-form-stations-block-3 #edit-combine-wrapper input,
   #views-exposed-form-stations-block-4 #edit-combine-wrapper input {
@@ -5736,7 +5769,7 @@ nav.mm-menu.mm-basic {
     margin-bottom: 4px;
   }
 }
-/* line 3159, ../sass/components/_delek.scss */
+/* line 3179, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 #edit-combine-wrapper label, .page-stations #block-views-exp-stations-page-1 #edit-combine-wrapper label, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-combine-wrapper label,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-combine-wrapper label, #views-exposed-form-stations-block-1 #edit-combine-wrapper label, #views-exposed-form-stations-block-2 #edit-combine-wrapper label, #views-exposed-form-stations-block-3 #edit-combine-wrapper label,
 #views-exposed-form-stations-block-4 #edit-combine-wrapper label {
@@ -5745,7 +5778,7 @@ nav.mm-menu.mm-basic {
   font-weight: normal;
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 3159, ../sass/components/_delek.scss */
+  /* line 3179, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-combine-wrapper label, .page-stations #block-views-exp-stations-page-1 #edit-combine-wrapper label, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-combine-wrapper label,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-combine-wrapper label, #views-exposed-form-stations-block-1 #edit-combine-wrapper label, #views-exposed-form-stations-block-2 #edit-combine-wrapper label, #views-exposed-form-stations-block-3 #edit-combine-wrapper label,
   #views-exposed-form-stations-block-4 #edit-combine-wrapper label {
@@ -5753,7 +5786,7 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 480px) {
-  /* line 3159, ../sass/components/_delek.scss */
+  /* line 3179, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-combine-wrapper label, .page-stations #block-views-exp-stations-page-1 #edit-combine-wrapper label, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-combine-wrapper label,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-combine-wrapper label, #views-exposed-form-stations-block-1 #edit-combine-wrapper label, #views-exposed-form-stations-block-2 #edit-combine-wrapper label, #views-exposed-form-stations-block-3 #edit-combine-wrapper label,
   #views-exposed-form-stations-block-4 #edit-combine-wrapper label {
@@ -5761,7 +5794,7 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 767px) {
-  /* line 3171, ../sass/components/_delek.scss */
+  /* line 3191, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-second-wrapper, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-second-wrapper, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-second-wrapper,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-second-wrapper, #views-exposed-form-stations-block-1 #edit-dropdown-first-wrapper, #views-exposed-form-stations-block-1 #edit-dropdown-second-wrapper, #views-exposed-form-stations-block-2 #edit-dropdown-first-wrapper, #views-exposed-form-stations-block-2 #edit-dropdown-second-wrapper, #views-exposed-form-stations-block-3 #edit-dropdown-first-wrapper, #views-exposed-form-stations-block-3 #edit-dropdown-second-wrapper,
@@ -5770,7 +5803,7 @@ nav.mm-menu.mm-basic {
     width: 100%;
     padding-right: 0;
   }
-  /* line 3175, ../sass/components/_delek.scss */
+  /* line 3195, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper .form-type-select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-second-wrapper .form-type-select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-second-wrapper select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper .form-type-select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-second-wrapper .form-type-select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-second-wrapper select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper .form-type-select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-second-wrapper .form-type-select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-second-wrapper select,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper .form-type-select,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper select,
@@ -5784,7 +5817,7 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 3180, ../sass/components/_delek.scss */
+  /* line 3200, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-time-tid-wrapper, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper, .page-stations #block-views-exp-stations-page-1 #edit-field-time-tid-wrapper, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-time-tid-wrapper,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-field-time-tid-wrapper, #views-exposed-form-stations-block-1 #edit-dropdown-first-wrapper, #views-exposed-form-stations-block-1 #edit-field-time-tid-wrapper, #views-exposed-form-stations-block-2 #edit-dropdown-first-wrapper, #views-exposed-form-stations-block-2 #edit-field-time-tid-wrapper, #views-exposed-form-stations-block-3 #edit-dropdown-first-wrapper, #views-exposed-form-stations-block-3 #edit-field-time-tid-wrapper,
@@ -5794,7 +5827,7 @@ nav.mm-menu.mm-basic {
     padding-right: 0;
   }
 }
-/* line 3187, ../sass/components/_delek.scss */
+/* line 3207, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper .form-type-select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-second-wrapper .form-type-select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-time-tid-wrapper .form-type-select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper .form-type-select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-second-wrapper .form-type-select, .page-stations #block-views-exp-stations-page-1 #edit-field-time-tid-wrapper .form-type-select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper .form-type-select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-second-wrapper .form-type-select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-time-tid-wrapper .form-type-select,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper .form-type-select,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-second-wrapper .form-type-select,
@@ -5815,7 +5848,7 @@ nav.mm-menu.mm-basic {
   box-shadow: none;
 }
 @media (max-width: 767px) {
-  /* line 3187, ../sass/components/_delek.scss */
+  /* line 3207, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper .form-type-select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-second-wrapper .form-type-select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-time-tid-wrapper .form-type-select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper .form-type-select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-second-wrapper .form-type-select, .page-stations #block-views-exp-stations-page-1 #edit-field-time-tid-wrapper .form-type-select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper .form-type-select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-second-wrapper .form-type-select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-time-tid-wrapper .form-type-select,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper .form-type-select,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-second-wrapper .form-type-select,
@@ -5826,7 +5859,7 @@ nav.mm-menu.mm-basic {
     border: 2px solid #dedede;
   }
 }
-/* line 3203, ../sass/components/_delek.scss */
+/* line 3223, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper .form-type-select:hover, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-second-wrapper .form-type-select:hover, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-time-tid-wrapper .form-type-select:hover, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper .form-type-select:hover, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-second-wrapper .form-type-select:hover, .page-stations #block-views-exp-stations-page-1 #edit-field-time-tid-wrapper .form-type-select:hover, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper .form-type-select:hover, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-second-wrapper .form-type-select:hover, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-time-tid-wrapper .form-type-select:hover,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper .form-type-select:hover,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-second-wrapper .form-type-select:hover,
@@ -5836,7 +5869,7 @@ nav.mm-menu.mm-basic {
 #views-exposed-form-stations-block-4 #edit-field-time-tid-wrapper .form-type-select:hover {
   background: #fff url("../images/select1-h.jpg") no-repeat right center;
 }
-/* line 3206, ../sass/components/_delek.scss */
+/* line 3226, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper .form-type-select select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-second-wrapper .form-type-select select, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-time-tid-wrapper .form-type-select select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper .form-type-select select, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-second-wrapper .form-type-select select, .page-stations #block-views-exp-stations-page-1 #edit-field-time-tid-wrapper .form-type-select select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper .form-type-select select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-second-wrapper .form-type-select select, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-time-tid-wrapper .form-type-select select,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper .form-type-select select,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-second-wrapper .form-type-select select,
@@ -5858,7 +5891,7 @@ nav.mm-menu.mm-basic {
   height: 40px;
   color: #4d4d4d;
 }
-/* line 3221, ../sass/components/_delek.scss */
+/* line 3241, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-first-wrapper .form-type-select select::-ms-expand, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-dropdown-second-wrapper .form-type-select select::-ms-expand, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-time-tid-wrapper .form-type-select select::-ms-expand, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-first-wrapper .form-type-select select::-ms-expand, .page-stations #block-views-exp-stations-page-1 #edit-dropdown-second-wrapper .form-type-select select::-ms-expand, .page-stations #block-views-exp-stations-page-1 #edit-field-time-tid-wrapper .form-type-select select::-ms-expand, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper .form-type-select select::-ms-expand, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-dropdown-second-wrapper .form-type-select select::-ms-expand, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-time-tid-wrapper .form-type-select select::-ms-expand,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper .form-type-select select::-ms-expand,
 .section-stations-m #views-exposed-form-stations-page-4 #edit-dropdown-second-wrapper .form-type-select select::-ms-expand,
@@ -5868,7 +5901,7 @@ nav.mm-menu.mm-basic {
 #views-exposed-form-stations-block-4 #edit-field-time-tid-wrapper .form-type-select select::-ms-expand {
   display: none;
 }
-/* line 3225, ../sass/components/_delek.scss */
+/* line 3245, ../sass/components/_delek.scss */
 .section-stations-dalkan #block-views-exp-stations-page-2 input#edit-submit-stations, .page-stations #block-views-exp-stations-page-1 input#edit-submit-stations, .section-stations-dalkan-m #views-exposed-form-stations-page-3 input#edit-submit-stations,
 .section-stations-m #views-exposed-form-stations-page-4 input#edit-submit-stations, #views-exposed-form-stations-block-1 input#edit-submit-stations, #views-exposed-form-stations-block-2 input#edit-submit-stations, #views-exposed-form-stations-block-3 input#edit-submit-stations,
 #views-exposed-form-stations-block-4 input#edit-submit-stations {
@@ -5897,7 +5930,7 @@ nav.mm-menu.mm-basic {
   background-color: #f2fbfb;
 }
 @media (max-width: 767px) {
-  /* line 3234, ../sass/components/_delek.scss */
+  /* line 3254, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 .views-submit-button, .page-stations #block-views-exp-stations-page-1 .views-submit-button, .section-stations-dalkan-m #views-exposed-form-stations-page-3 .views-submit-button,
   .section-stations-m #views-exposed-form-stations-page-4 .views-submit-button, #views-exposed-form-stations-block-1 .views-submit-button, #views-exposed-form-stations-block-2 .views-submit-button, #views-exposed-form-stations-block-3 .views-submit-button,
   #views-exposed-form-stations-block-4 .views-submit-button {
@@ -5909,7 +5942,7 @@ nav.mm-menu.mm-basic {
   }
 }
 @media (max-width: 767px) {
-  /* line 3243, ../sass/components/_delek.scss */
+  /* line 3263, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-station-type-value-wrapper, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-services-value-wrapper, .page-stations #block-views-exp-stations-page-1 #edit-field-station-type-value-wrapper, .page-stations #block-views-exp-stations-page-1 #edit-field-services-value-wrapper, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-station-type-value-wrapper, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-services-value-wrapper,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-field-station-type-value-wrapper,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-field-services-value-wrapper, #views-exposed-form-stations-block-1 #edit-field-station-type-value-wrapper, #views-exposed-form-stations-block-1 #edit-field-services-value-wrapper, #views-exposed-form-stations-block-2 #edit-field-station-type-value-wrapper, #views-exposed-form-stations-block-2 #edit-field-services-value-wrapper, #views-exposed-form-stations-block-3 #edit-field-station-type-value-wrapper, #views-exposed-form-stations-block-3 #edit-field-services-value-wrapper,
@@ -5918,7 +5951,7 @@ nav.mm-menu.mm-basic {
     padding-right: 0;
     margin-bottom: 20px;
   }
-  /* line 3247, ../sass/components/_delek.scss */
+  /* line 3267, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-station-type-value-wrapper input, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-services-value-wrapper input, .page-stations #block-views-exp-stations-page-1 #edit-field-station-type-value-wrapper input, .page-stations #block-views-exp-stations-page-1 #edit-field-services-value-wrapper input, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-station-type-value-wrapper input, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-services-value-wrapper input,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-field-station-type-value-wrapper input,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-field-services-value-wrapper input, #views-exposed-form-stations-block-1 #edit-field-station-type-value-wrapper input, #views-exposed-form-stations-block-1 #edit-field-services-value-wrapper input, #views-exposed-form-stations-block-2 #edit-field-station-type-value-wrapper input, #views-exposed-form-stations-block-2 #edit-field-services-value-wrapper input, #views-exposed-form-stations-block-3 #edit-field-station-type-value-wrapper input, #views-exposed-form-stations-block-3 #edit-field-services-value-wrapper input,
@@ -5926,7 +5959,7 @@ nav.mm-menu.mm-basic {
   #views-exposed-form-stations-block-4 #edit-field-services-value-wrapper input {
     margin-left: 10px;
   }
-  /* line 3250, ../sass/components/_delek.scss */
+  /* line 3270, ../sass/components/_delek.scss */
   .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-station-type-value-wrapper .form-type-bef-checkbox, .section-stations-dalkan #block-views-exp-stations-page-2 #edit-field-services-value-wrapper .form-type-bef-checkbox, .page-stations #block-views-exp-stations-page-1 #edit-field-station-type-value-wrapper .form-type-bef-checkbox, .page-stations #block-views-exp-stations-page-1 #edit-field-services-value-wrapper .form-type-bef-checkbox, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-station-type-value-wrapper .form-type-bef-checkbox, .section-stations-dalkan-m #views-exposed-form-stations-page-3 #edit-field-services-value-wrapper .form-type-bef-checkbox,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-field-station-type-value-wrapper .form-type-bef-checkbox,
   .section-stations-m #views-exposed-form-stations-page-4 #edit-field-services-value-wrapper .form-type-bef-checkbox, #views-exposed-form-stations-block-1 #edit-field-station-type-value-wrapper .form-type-bef-checkbox, #views-exposed-form-stations-block-1 #edit-field-services-value-wrapper .form-type-bef-checkbox, #views-exposed-form-stations-block-2 #edit-field-station-type-value-wrapper .form-type-bef-checkbox, #views-exposed-form-stations-block-2 #edit-field-services-value-wrapper .form-type-bef-checkbox, #views-exposed-form-stations-block-3 #edit-field-station-type-value-wrapper .form-type-bef-checkbox, #views-exposed-form-stations-block-3 #edit-field-services-value-wrapper .form-type-bef-checkbox,
@@ -5937,83 +5970,83 @@ nav.mm-menu.mm-basic {
   }
 }
 
-/* line 3258, ../sass/components/_delek.scss */
+/* line 3278, ../sass/components/_delek.scss */
 #block-views-stations-block-2 {
   display: none;
 }
 @media (max-width: 767px) {
-  /* line 3258, ../sass/components/_delek.scss */
+  /* line 3278, ../sass/components/_delek.scss */
   #block-views-stations-block-2 {
     display: block;
     margin-top: 100px;
   }
 }
 @media (max-width: 480px) {
-  /* line 3265, ../sass/components/_delek.scss */
+  /* line 3285, ../sass/components/_delek.scss */
   #block-views-stations-block-2 .view-content {
     font-size: 15px;
   }
 }
-/* line 3269, ../sass/components/_delek.scss */
+/* line 3289, ../sass/components/_delek.scss */
 #block-views-stations-block-2 table {
   width: 100%;
   display: block;
 }
-/* line 3273, ../sass/components/_delek.scss */
+/* line 3293, ../sass/components/_delek.scss */
 #block-views-stations-block-2 h2 {
   font-family: Ad-light, arial;
   font-size: 30px;
   line-height: 30px;
 }
-/* line 3278, ../sass/components/_delek.scss */
+/* line 3298, ../sass/components/_delek.scss */
 #block-views-stations-block-2 th.views-field-title, #block-views-stations-block-2 th.views-field-field-gs-city, #block-views-stations-block-2 th.views-field-field-phone {
   width: auto;
 }
 @media (max-width: 480px) {
-  /* line 3281, ../sass/components/_delek.scss */
+  /* line 3301, ../sass/components/_delek.scss */
   #block-views-stations-block-2 .views-field-field-hours-friday {
     display: none;
   }
 }
 
-/* line 3290, ../sass/components/_delek.scss */
+/* line 3310, ../sass/components/_delek.scss */
 .page-node-1155 #block-views-stations-block-2 {
   margin: 0;
 }
-/* line 3292, ../sass/components/_delek.scss */
+/* line 3312, ../sass/components/_delek.scss */
 .page-node-1155 #block-views-stations-block-2 .block-title {
   display: none;
 }
 
-/* line 3298, ../sass/components/_delek.scss */
+/* line 3318, ../sass/components/_delek.scss */
 .ff.section-stations-dalkan #block-views-exp-stations-page-2 input#edit-submit-stations, .ff.page-stations #block-views-exp-stations-page-1 input#edit-submit-stations {
   padding: 2px 33px 0;
 }
 
-/* line 3304, ../sass/components/_delek.scss */
+/* line 3324, ../sass/components/_delek.scss */
 .page-node-1161 #main {
   width: 100%;
 }
 
 @media (max-width: 767px) {
-  /* line 3309, ../sass/components/_delek.scss */
+  /* line 3329, ../sass/components/_delek.scss */
   #block-views-stations-block-3 {
     display: none;
   }
 }
 
-/* line 3315, ../sass/components/_delek.scss */
+/* line 3335, ../sass/components/_delek.scss */
 #block-views-stations-block-4 {
   display: none;
 }
 @media (max-width: 767px) {
-  /* line 3315, ../sass/components/_delek.scss */
+  /* line 3335, ../sass/components/_delek.scss */
   #block-views-stations-block-4 {
     display: block;
   }
 }
 
-/* line 3322, ../sass/components/_delek.scss */
+/* line 3342, ../sass/components/_delek.scss */
 #block-views-stations-block-3 h2, #block-views-stations-block-4 h2 {
   font-family: Ad-light, arial;
   font-size: 30px;
@@ -6022,119 +6055,119 @@ nav.mm-menu.mm-basic {
 }
 
 @media (min-width: 976px) and (max-width: 1305px) {
-  /* line 3330, ../sass/components/_delek.scss */
+  /* line 3350, ../sass/components/_delek.scss */
   #edit-field-time-tid-wrapper {
     clear: both;
     padding-right: 0;
   }
 }
-/* line 3337, ../sass/components/_delek.scss */
+/* line 3357, ../sass/components/_delek.scss */
 #views-exposed-form-stations-page-3 #edit-dropdown-first-wrapper, #views-exposed-form-stations-page-4 #edit-dropdown-first-wrapper {
   clear: both;
   padding-right: 0;
 }
-/* line 3341, ../sass/components/_delek.scss */
+/* line 3361, ../sass/components/_delek.scss */
 #views-exposed-form-stations-page-3 #edit-field-station-type-value-wrapper label, #views-exposed-form-stations-page-3 #edit-field-services-value-wrapper label, #views-exposed-form-stations-page-4 #edit-field-station-type-value-wrapper label, #views-exposed-form-stations-page-4 #edit-field-services-value-wrapper label {
   position: relative;
 }
 
-/* line 3347, ../sass/components/_delek.scss */
+/* line 3367, ../sass/components/_delek.scss */
 .section-stations-dalkan #main, .page-stations #main {
   width: 100%;
 }
 
 @media (max-width: 480px) {
-  /* line 3354, ../sass/components/_delek.scss */
+  /* line 3374, ../sass/components/_delek.scss */
   .view-stations .view-content {
     font-size: 15px;
   }
 }
-/* line 3358, ../sass/components/_delek.scss */
+/* line 3378, ../sass/components/_delek.scss */
 .view-stations tr.odd {
   background-color: #edf9f9;
 }
-/* line 3361, ../sass/components/_delek.scss */
+/* line 3381, ../sass/components/_delek.scss */
 .view-stations tr {
   border: none;
 }
-/* line 3364, ../sass/components/_delek.scss */
+/* line 3384, ../sass/components/_delek.scss */
 .view-stations thead {
   background-color: #c7e4e4;
   height: 40px;
 }
-/* line 3367, ../sass/components/_delek.scss */
+/* line 3387, ../sass/components/_delek.scss */
 .view-stations thead th {
   font-weight: normal;
   font-family: Ad-bold, arial;
 }
-/* line 3372, ../sass/components/_delek.scss */
+/* line 3392, ../sass/components/_delek.scss */
 .view-stations th, .view-stations td {
   height: 35px;
   padding: 5px 10px 0;
 }
-/* line 3376, ../sass/components/_delek.scss */
+/* line 3396, ../sass/components/_delek.scss */
 .view-stations td.views-field-field-services {
   font-size: 0;
 }
-/* line 3378, ../sass/components/_delek.scss */
+/* line 3398, ../sass/components/_delek.scss */
 .view-stations td.views-field-field-services img {
   margin-bottom: -4px;
   margin-left: 2.2%;
   padding-top: 6px;
   height: 18px;
 }
-/* line 3385, ../sass/components/_delek.scss */
+/* line 3405, ../sass/components/_delek.scss */
 .view-stations th.views-field-title, .view-stations th.views-field-field-gs-city, .view-stations th.views-field-field-phone {
   width: 19%;
 }
 @media (max-width: 767px) {
-  /* line 3388, ../sass/components/_delek.scss */
+  /* line 3408, ../sass/components/_delek.scss */
   .view-stations .views-field-nothing {
     width: 1%;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 3392, ../sass/components/_delek.scss */
+  /* line 3412, ../sass/components/_delek.scss */
   .view-stations .views-field-nothing img {
     padding-top: 8px;
     width: 50px;
   }
 }
 @media (max-width: 480px) {
-  /* line 3392, ../sass/components/_delek.scss */
+  /* line 3412, ../sass/components/_delek.scss */
   .view-stations .views-field-nothing img {
     padding-top: 6px;
     width: 30px;
   }
 }
 
-/* line 3408, ../sass/components/_delek.scss */
+/* line 3428, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 .bef-checkboxes .form-type-bef-checkbox, #block-views-exp-stations-page-1 .bef-checkboxes .form-type-bef-checkbox {
   float: right;
   margin-right: 20px;
 }
-/* line 3412, ../sass/components/_delek.scss */
+/* line 3432, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 .bef-checkboxes .form-item-edit-field-station-type-value-1, #block-views-exp-stations-page-1 .bef-checkboxes .form-item-edit-field-station-type-value-1 {
   width: 207px;
   padding-right: 18px;
 }
-/* line 3416, ../sass/components/_delek.scss */
+/* line 3436, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 .bef-checkboxes .form-item-edit-field-station-type-value-2, #block-views-exp-stations-page-1 .bef-checkboxes .form-item-edit-field-station-type-value-2 {
   width: 143px;
 }
-/* line 3419, ../sass/components/_delek.scss */
+/* line 3439, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 .bef-checkboxes .form-item-edit-field-station-type-value-3, #block-views-exp-stations-page-1 .bef-checkboxes .form-item-edit-field-station-type-value-3 {
   width: 145px;
 }
-/* line 3422, ../sass/components/_delek.scss */
+/* line 3442, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 .bef-checkboxes label, #block-views-exp-stations-page-1 .bef-checkboxes label {
   font-family: Ad-regular, arial !important;
 }
-/* line 3425, ../sass/components/_delek.scss */
+/* line 3445, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 .bef-checkboxes input[type="checkbox"] + label, #block-views-exp-stations-page-1 .bef-checkboxes input[type="checkbox"] + label {
   padding-right: 5px;
 }
-/* line 3429, ../sass/components/_delek.scss */
+/* line 3449, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 #edit-field-station-type-value-wrapper, #block-views-exp-stations-page-2 #edit-field-services-value-wrapper, #block-views-exp-stations-page-1 #edit-field-station-type-value-wrapper, #block-views-exp-stations-page-1 #edit-field-services-value-wrapper {
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
@@ -6143,7 +6176,7 @@ nav.mm-menu.mm-basic {
   padding-right: 10px;
   padding-bottom: 4px;
 }
-/* line 3436, ../sass/components/_delek.scss */
+/* line 3456, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 #edit-field-station-type-value-wrapper label, #block-views-exp-stations-page-2 #edit-field-services-value-wrapper label, #block-views-exp-stations-page-1 #edit-field-station-type-value-wrapper label, #block-views-exp-stations-page-1 #edit-field-services-value-wrapper label {
   position: relative;
   float: right;
@@ -6151,18 +6184,18 @@ nav.mm-menu.mm-basic {
   font-family: Ad-bold, arial;
   font-weight: normal;
 }
-/* line 3445, ../sass/components/_delek.scss */
+/* line 3465, ../sass/components/_delek.scss */
 #block-views-exp-stations-page-2 #edit-field-services-value-wrapper label, #block-views-exp-stations-page-1 #edit-field-services-value-wrapper label {
   padding-left: 18px;
 }
 
-/* line 3452, ../sass/components/_delek.scss */
+/* line 3472, ../sass/components/_delek.scss */
 #block-print-ui-print-links {
   float: left;
   margin-top: -63px;
   padding-left: 5px;
 }
-/* line 3456, ../sass/components/_delek.scss */
+/* line 3476, ../sass/components/_delek.scss */
 #block-print-ui-print-links a.print-page {
   background: url("../images/print.png") no-repeat 0 0;
   display: block;
@@ -6170,46 +6203,46 @@ nav.mm-menu.mm-basic {
   height: 28px;
   width: 30px;
 }
-/* line 3463, ../sass/components/_delek.scss */
+/* line 3483, ../sass/components/_delek.scss */
 #block-print-ui-print-links a.print-page:hover {
   background: url("../images/print-h.png") no-repeat 0 0;
 }
 
-/* line 3468, ../sass/components/_delek.scss */
+/* line 3488, ../sass/components/_delek.scss */
 #block-block-18 {
   float: left;
   margin-top: -89px;
 }
 
 @media (min-width: 768px) and (max-width: 835px) {
-  /* line 3474, ../sass/components/_delek.scss */
+  /* line 3494, ../sass/components/_delek.scss */
   #block-block-18, #block-print-ui-print-links {
     display: none;
   }
 }
-/* line 3481, ../sass/components/_delek.scss */
+/* line 3501, ../sass/components/_delek.scss */
 .menu-mlid-1430, .menu-mlid-1798 {
   display: none !important;
 }
 
 @media (min-width: 768px) and (max-width: 935px) {
-  /* line 3486, ../sass/components/_delek.scss */
+  /* line 3506, ../sass/components/_delek.scss */
   .mmenu-mm-list-mlid-1798 {
     display: none !important;
   }
 }
 @media (max-width: 767px) {
-  /* line 3492, ../sass/components/_delek.scss */
+  /* line 3512, ../sass/components/_delek.scss */
   .mmenu-mm-list-mlid-1054, .mmenu-mm-list-mlid-1792 {
     display: none !important;
   }
 }
 /******* customer service ********/
-/* line 3500, ../sass/components/_delek.scss */
+/* line 3520, ../sass/components/_delek.scss */
 .page-node-39 #main {
   width: 100%;
 }
-/* line 3503, ../sass/components/_delek.scss */
+/* line 3523, ../sass/components/_delek.scss */
 .page-node-39 .region-content2 {
   width: 250px;
   float: left;
@@ -6217,18 +6250,18 @@ nav.mm-menu.mm-basic {
   padding-right: 14px;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 3503, ../sass/components/_delek.scss */
+  /* line 3523, ../sass/components/_delek.scss */
   .page-node-39 .region-content2 {
     width: 210px;
   }
 }
 @media (max-width: 767px) {
-  /* line 3503, ../sass/components/_delek.scss */
+  /* line 3523, ../sass/components/_delek.scss */
   .page-node-39 .region-content2 {
     width: 100%;
   }
 }
-/* line 3514, ../sass/components/_delek.scss */
+/* line 3534, ../sass/components/_delek.scss */
 .page-node-39 .region-content2 .block-title {
   font-family: Ad-light, arial;
   font-size: 30px;
@@ -6236,63 +6269,63 @@ nav.mm-menu.mm-basic {
   font-weight: normal;
   line-height: 30px;
 }
-/* line 3521, ../sass/components/_delek.scss */
+/* line 3541, ../sass/components/_delek.scss */
 .page-node-39 .region-content2 p {
   margin: 0;
 }
-/* line 3525, ../sass/components/_delek.scss */
+/* line 3545, ../sass/components/_delek.scss */
 .page-node-39 #content {
   width: 68%;
   float: right;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 3525, ../sass/components/_delek.scss */
+  /* line 3545, ../sass/components/_delek.scss */
   .page-node-39 #content {
     width: 68%;
   }
 }
 @media (max-width: 767px) {
-  /* line 3525, ../sass/components/_delek.scss */
+  /* line 3545, ../sass/components/_delek.scss */
   .page-node-39 #content {
     width: 100%;
   }
 }
-/* line 3536, ../sass/components/_delek.scss */
+/* line 3556, ../sass/components/_delek.scss */
 .page-node-39 .bullet li {
   width: 50%;
   float: right;
 }
 @media (max-width: 767px) {
-  /* line 3536, ../sass/components/_delek.scss */
+  /* line 3556, ../sass/components/_delek.scss */
   .page-node-39 .bullet li {
     width: 100%;
   }
 }
-/* line 3545, ../sass/components/_delek.scss */
+/* line 3565, ../sass/components/_delek.scss */
 .page-node-39 #block-block-9 p, .page-node-39 #block-block-9 div, .page-node-39 #block-block-14 p, .page-node-39 #block-block-14 div {
   font-size: 15px;
   margin: 0;
 }
-/* line 3549, ../sass/components/_delek.scss */
+/* line 3569, ../sass/components/_delek.scss */
 .page-node-39 #block-block-9 h2, .page-node-39 #block-block-14 h2 {
   line-height: 30px;
 }
-/* line 3552, ../sass/components/_delek.scss */
+/* line 3572, ../sass/components/_delek.scss */
 .page-node-39 #block-block-9 .write, .page-node-39 #block-block-14 .write {
   margin-top: 5px;
 }
-/* line 3556, ../sass/components/_delek.scss */
+/* line 3576, ../sass/components/_delek.scss */
 .page-node-39 #block-block-14 {
   margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
-  /* line 3561, ../sass/components/_delek.scss */
+  /* line 3581, ../sass/components/_delek.scss */
   #block-views-files-block-3 {
     display: none;
   }
 }
-/* line 3565, ../sass/components/_delek.scss */
+/* line 3585, ../sass/components/_delek.scss */
 #block-views-files-block-3 .block-title {
   font-family: Ad-light, arial;
   font-size: 30px;
@@ -6300,15 +6333,15 @@ nav.mm-menu.mm-basic {
   font-weight: normal;
   line-height: 30px;
 }
-/* line 3572, ../sass/components/_delek.scss */
+/* line 3592, ../sass/components/_delek.scss */
 #block-views-files-block-3 .views-field-field-files {
   font-size: 14px;
 }
-/* line 3574, ../sass/components/_delek.scss */
+/* line 3594, ../sass/components/_delek.scss */
 #block-views-files-block-3 .views-field-field-files img {
   display: none;
 }
-/* line 3577, ../sass/components/_delek.scss */
+/* line 3597, ../sass/components/_delek.scss */
 #block-views-files-block-3 .views-field-field-files a {
   background: url("../images/pdf-icon.png") no-repeat 93% center;
   height: 22px;
@@ -6318,22 +6351,22 @@ nav.mm-menu.mm-basic {
   line-height: 12px;
   background-color: #edf9f9;
 }
-/* line 3586, ../sass/components/_delek.scss */
+/* line 3606, ../sass/components/_delek.scss */
 #block-views-files-block-3 .views-field-field-files a:hover {
   background-color: #c7e4e4;
 }
-/* line 3590, ../sass/components/_delek.scss */
+/* line 3610, ../sass/components/_delek.scss */
 #block-views-files-block-3 .views-row {
   width: 30%;
   margin-left: 3%;
   float: right;
   margin-bottom: 62px;
 }
-/* line 3596, ../sass/components/_delek.scss */
+/* line 3616, ../sass/components/_delek.scss */
 #block-views-files-block-3 .views-row-4 {
   clear: both;
 }
-/* line 3599, ../sass/components/_delek.scss */
+/* line 3619, ../sass/components/_delek.scss */
 #block-views-files-block-3 .views-field-field-title {
   background-color: #dff2f2;
   height: 30px;
@@ -6342,24 +6375,24 @@ nav.mm-menu.mm-basic {
 }
 
 /******* all jobs  *******/
-/* line 3610, ../sass/components/_delek.scss */
+/* line 3630, ../sass/components/_delek.scss */
 .page-node-4 #main {
   width: 68%;
 }
 @media (max-width: 767px) {
-  /* line 3610, ../sass/components/_delek.scss */
+  /* line 3630, ../sass/components/_delek.scss */
   .page-node-4 #main {
     width: 100%;
   }
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 3610, ../sass/components/_delek.scss */
+  /* line 3630, ../sass/components/_delek.scss */
   .page-node-4 #main {
     width: 100%;
   }
 }
 
-/* line 3622, ../sass/components/_delek.scss */
+/* line 3642, ../sass/components/_delek.scss */
 #block-views-jobs-block-1 .views-field-title {
   font-family: Ad-light, arial;
   font-size: 31px;
@@ -6367,47 +6400,47 @@ nav.mm-menu.mm-basic {
   padding-left: 4px;
 }
 @media (max-width: 767px) {
-  /* line 3622, ../sass/components/_delek.scss */
+  /* line 3642, ../sass/components/_delek.scss */
   #block-views-jobs-block-1 .views-field-title {
     border: none;
     line-height: 35px;
   }
 }
-/* line 3631, ../sass/components/_delek.scss */
+/* line 3651, ../sass/components/_delek.scss */
 #block-views-jobs-block-1 .views-field-title a {
   color: #009895;
 }
-/* line 3635, ../sass/components/_delek.scss */
+/* line 3655, ../sass/components/_delek.scss */
 #block-views-jobs-block-1 .views-field-field-sherut-leumi {
   float: left;
 }
-/* line 3638, ../sass/components/_delek.scss */
+/* line 3658, ../sass/components/_delek.scss */
 #block-views-jobs-block-1 .views-field-field-job-number {
   color: #009895;
   margin-right: 13px;
 }
 @media (max-width: 767px) {
-  /* line 3638, ../sass/components/_delek.scss */
+  /* line 3658, ../sass/components/_delek.scss */
   #block-views-jobs-block-1 .views-field-field-job-number {
     float: right;
     margin: 0;
     width: 100%;
   }
 }
-/* line 3647, ../sass/components/_delek.scss */
+/* line 3667, ../sass/components/_delek.scss */
 #block-views-jobs-block-1 .views-field-view-node {
   text-align: left;
   font-family: Ad-bold, arial;
   margin-top: 7px;
   margin-bottom: 29px;
 }
-/* line 3654, ../sass/components/_delek.scss */
+/* line 3674, ../sass/components/_delek.scss */
 #block-views-jobs-block-1 .views-field-view-node:hover a {
   color: #333;
 }
 
 /******* job page  *******/
-/* line 3662, ../sass/components/_delek.scss */
+/* line 3682, ../sass/components/_delek.scss */
 .node-type-job {
   /*#page-title {
     display: none;
@@ -6425,37 +6458,37 @@ nav.mm-menu.mm-basic {
     content: "|";
   }*/
 }
-/* line 3663, ../sass/components/_delek.scss */
+/* line 3683, ../sass/components/_delek.scss */
 .node-type-job li.menu-mlid-643 {
   border-bottom: 2px solid #bbe5e5;
 }
-/* line 3666, ../sass/components/_delek.scss */
+/* line 3686, ../sass/components/_delek.scss */
 .node-type-job #main {
   width: 100%;
 }
-/* line 3669, ../sass/components/_delek.scss */
+/* line 3689, ../sass/components/_delek.scss */
 .node-type-job .field-name-field-requirements-job ul {
   margin-top: 0;
 }
-/* line 3687, ../sass/components/_delek.scss */
+/* line 3707, ../sass/components/_delek.scss */
 .node-type-job p {
   margin: 0;
 }
-/* line 3690, ../sass/components/_delek.scss */
+/* line 3710, ../sass/components/_delek.scss */
 .node-type-job .field-name-field-job-number {
   font-size: 29px;
 }
-/* line 3693, ../sass/components/_delek.scss */
+/* line 3713, ../sass/components/_delek.scss */
 .node-type-job .field-name-field-sherut-leumi {
   clear: both;
 }
-/* line 3696, ../sass/components/_delek.scss */
+/* line 3716, ../sass/components/_delek.scss */
 .node-type-job .field-label {
   font-weight: normal;
   text-decoration: underline;
   margin-top: 20px;
 }
-/* line 3701, ../sass/components/_delek.scss */
+/* line 3721, ../sass/components/_delek.scss */
 .node-type-job #block-webform-client-block-690 {
   background-color: #f9f9f9;
   width: 273px;
@@ -6463,13 +6496,13 @@ nav.mm-menu.mm-basic {
   float: left;
 }
 @media (max-width: 767px) {
-  /* line 3701, ../sass/components/_delek.scss */
+  /* line 3721, ../sass/components/_delek.scss */
   .node-type-job #block-webform-client-block-690 {
     width: 100%;
     margin-top: 40px;
   }
 }
-/* line 3710, ../sass/components/_delek.scss */
+/* line 3730, ../sass/components/_delek.scss */
 .node-type-job #block-webform-client-block-690 .block-title {
   font-family: Ad-light, arial;
   font-size: 30px;
@@ -6478,33 +6511,33 @@ nav.mm-menu.mm-basic {
   line-height: 30px;
   padding: 14px 17px 0 0;
 }
-/* line 3718, ../sass/components/_delek.scss */
+/* line 3738, ../sass/components/_delek.scss */
 .node-type-job #block-webform-client-block-690 p {
   margin: 0;
 }
-/* line 3722, ../sass/components/_delek.scss */
+/* line 3742, ../sass/components/_delek.scss */
 .node-type-job article {
   width: 65%;
   float: right;
 }
 @media (min-width: 768px) and (max-width: 975px) {
-  /* line 3722, ../sass/components/_delek.scss */
+  /* line 3742, ../sass/components/_delek.scss */
   .node-type-job article {
     width: 55%;
   }
 }
 @media (max-width: 767px) {
-  /* line 3722, ../sass/components/_delek.scss */
+  /* line 3742, ../sass/components/_delek.scss */
   .node-type-job article {
     width: 100%;
   }
 }
-/* line 3732, ../sass/components/_delek.scss */
+/* line 3752, ../sass/components/_delek.scss */
 .node-type-job .bottom {
   clear: both;
 }
 
-/* line 3737, ../sass/components/_delek.scss */
+/* line 3757, ../sass/components/_delek.scss */
 #webform-client-form-690 {
   padding: 0px 16px 25px;
   /*
@@ -6512,24 +6545,24 @@ nav.mm-menu.mm-basic {
     height: 30px;
   }*/
 }
-/* line 3739, ../sass/components/_delek.scss */
+/* line 3759, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-job-title, #webform-client-form-690 #webform-component-email-send, #webform-client-form-690 #webform-component-job-number {
   display: none;
 }
-/* line 3742, ../sass/components/_delek.scss */
+/* line 3762, ../sass/components/_delek.scss */
 #webform-client-form-690 .bar {
   width: 100%;
 }
-/* line 3745, ../sass/components/_delek.scss */
+/* line 3765, ../sass/components/_delek.scss */
 #webform-client-form-690 input#edit-submit {
   float: none;
   margin: 0 auto;
 }
-/* line 3753, ../sass/components/_delek.scss */
+/* line 3773, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-file-title {
   margin-bottom: 5px;
 }
-/* line 3757, ../sass/components/_delek.scss */
+/* line 3777, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-file {
   /*  cursor: pointer;
     height: 30px;
@@ -6586,7 +6619,7 @@ nav.mm-menu.mm-basic {
       }
     }*/
 }
-/* line 3812, ../sass/components/_delek.scss */
+/* line 3832, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-file input#edit-submitted-file-remove-button {
   background: url("../images/remove.png") no-repeat center center #4c4c4c;
   text-indent: 0;
@@ -6597,31 +6630,31 @@ nav.mm-menu.mm-basic {
   width: 13px;
   text-indent: -9999px;
 }
-/* line 3822, ../sass/components/_delek.scss */
+/* line 3842, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-file label {
   position: relative;
 }
-/* line 3825, ../sass/components/_delek.scss */
+/* line 3845, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-file input#edit-submitted-file-upload-button {
   display: none;
 }
-/* line 3828, ../sass/components/_delek.scss */
+/* line 3848, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-file input#edit-submitted-file-upload {
   height: auto;
   background-color: #fff;
   padding: 5px;
 }
-/* line 3833, ../sass/components/_delek.scss */
+/* line 3853, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-file .file-icon {
   display: none;
 }
-/* line 3836, ../sass/components/_delek.scss */
+/* line 3856, ../sass/components/_delek.scss */
 #webform-client-form-690 #webform-component-file .file a {
   padding-right: 20px;
 }
 
 /**********  contact &join dalkan **********/
-/* line 3844, ../sass/components/_delek.scss */
+/* line 3864, ../sass/components/_delek.scss */
 .node-672 #webform-client-form-672, #webform-client-form-50 {
   width: 366px;
   max-width: 100%;
@@ -6629,74 +6662,74 @@ nav.mm-menu.mm-basic {
   padding: 16px 16px 25px;
 }
 @media (max-width: 767px) {
-  /* line 3844, ../sass/components/_delek.scss */
+  /* line 3864, ../sass/components/_delek.scss */
   .node-672 #webform-client-form-672, #webform-client-form-50 {
     width: 100%;
     padding: 0;
     background-color: #fff;
   }
 }
-/* line 3854, ../sass/components/_delek.scss */
+/* line 3874, ../sass/components/_delek.scss */
 .node-672 #webform-client-form-672 input#edit-submit, #webform-client-form-50 input#edit-submit {
   float: none;
   margin: 0 auto;
 }
-/* line 3858, ../sass/components/_delek.scss */
+/* line 3878, ../sass/components/_delek.scss */
 .node-672 #webform-client-form-672 #webform-component-takanon, #webform-client-form-50 #webform-component-takanon {
   margin-bottom: 15px;
 }
 
-/* line 3864, ../sass/components/_delek.scss */
+/* line 3884, ../sass/components/_delek.scss */
 .page-node-672 .field-name-body, .page-node-50 .field-name-body {
   font-size: 29px;
   line-height: 32px;
   margin-bottom: 5px;
   margin-top: 11px;
 }
-/* line 3869, ../sass/components/_delek.scss */
+/* line 3889, ../sass/components/_delek.scss */
 .page-node-672 .field-name-body p, .page-node-50 .field-name-body p {
   margin: 0;
 }
-/* line 3872, ../sass/components/_delek.scss */
+/* line 3892, ../sass/components/_delek.scss */
 .page-node-672 .field-name-body .mail, .page-node-50 .field-name-body .mail {
   margin-top: 5px;
 }
 
-/* line 3879, ../sass/components/_delek.scss */
+/* line 3899, ../sass/components/_delek.scss */
 .page-node-50 #webform-client-form-50 {
   background-color: #fff;
   width: 100%;
 }
-/* line 3882, ../sass/components/_delek.scss */
+/* line 3902, ../sass/components/_delek.scss */
 .page-node-50 #webform-client-form-50 label {
   font-weight: bold;
 }
-/* line 3887, ../sass/components/_delek.scss */
+/* line 3907, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-type .form-checkboxes, .page-node-50 #webform-component-today .form-checkboxes {
   margin-right: 155px;
 }
-/* line 3890, ../sass/components/_delek.scss */
+/* line 3910, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-type input, .page-node-50 #webform-component-today input {
   width: 13px;
   height: 26px;
 }
-/* line 3894, ../sass/components/_delek.scss */
+/* line 3914, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-type label, .page-node-50 #webform-component-today label {
   width: auto;
   position: relative;
   font-weight: bold !important;
   float: right;
 }
-/* line 3900, ../sass/components/_delek.scss */
+/* line 3920, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-type label:after, .page-node-50 #webform-component-today label:after {
   content: ":";
 }
-/* line 3903, ../sass/components/_delek.scss */
+/* line 3923, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-type .form-type-checkbox, .page-node-50 #webform-component-today .form-type-checkbox {
   width: 145px;
   float: right;
 }
-/* line 3906, ../sass/components/_delek.scss */
+/* line 3926, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-type .form-type-checkbox label, .page-node-50 #webform-component-today .form-type-checkbox label {
   padding: 0;
   top: -9px;
@@ -6704,95 +6737,95 @@ nav.mm-menu.mm-basic {
   font-weight: normal !important;
   float: none;
 }
-/* line 3913, ../sass/components/_delek.scss */
+/* line 3933, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-type .form-type-checkbox label:after, .page-node-50 #webform-component-today .form-type-checkbox label:after {
   content: none;
 }
-/* line 3918, ../sass/components/_delek.scss */
+/* line 3938, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-today .form-type-checkbox {
   width: 118px;
 }
-/* line 3921, ../sass/components/_delek.scss */
+/* line 3941, ../sass/components/_delek.scss */
 .page-node-50 #webform-component-customer, .page-node-50 #webform-component-message {
   clear: both;
 }
-/* line 3924, ../sass/components/_delek.scss */
+/* line 3944, ../sass/components/_delek.scss */
 .page-node-50 input.form-text {
   width: 300px;
   max-width: 100%;
 }
-/* line 3928, ../sass/components/_delek.scss */
+/* line 3948, ../sass/components/_delek.scss */
 .page-node-50 input#edit-submit {
   float: right !important;
 }
 
 /******** fees  **********/
-/* line 3936, ../sass/components/_delek.scss */
+/* line 3956, ../sass/components/_delek.scss */
 .node-type-price.page-node-edit .form-field-name-field-top-image, .node-type-price.page-node-edit .form-field-name-field-top-image-mobile {
   display: none;
 }
-/* line 3940, ../sass/components/_delek.scss */
+/* line 3960, ../sass/components/_delek.scss */
 .node-type-price .update {
   font-size: 29px;
   color: #4d4d4d;
   line-height: 28px;
 }
 @media (max-width: 480px) {
-  /* line 3940, ../sass/components/_delek.scss */
+  /* line 3960, ../sass/components/_delek.scss */
   .node-type-price .update {
     font-size: 25px;
   }
 }
-/* line 3948, ../sass/components/_delek.scss */
+/* line 3968, ../sass/components/_delek.scss */
 .node-type-price #main {
   width: 655px;
   max-width: 100%;
 }
-/* line 3952, ../sass/components/_delek.scss */
+/* line 3972, ../sass/components/_delek.scss */
 .node-type-price table {
   font-size: 17px;
   line-height: 19px;
 }
-/* line 3955, ../sass/components/_delek.scss */
+/* line 3975, ../sass/components/_delek.scss */
 .node-type-price table .center {
   text-align: center;
 }
-/* line 3958, ../sass/components/_delek.scss */
+/* line 3978, ../sass/components/_delek.scss */
 .node-type-price table thead {
   background-color: #c7e4e4;
   font-family: Ad-bold, arial;
 }
-/* line 3961, ../sass/components/_delek.scss */
+/* line 3981, ../sass/components/_delek.scss */
 .node-type-price table thead td {
   padding: 0 10px;
   height: 40px;
 }
-/* line 3968, ../sass/components/_delek.scss */
+/* line 3988, ../sass/components/_delek.scss */
 .node-type-price table tbody td {
   padding: 3px 9px 0;
 }
-/* line 3971, ../sass/components/_delek.scss */
+/* line 3991, ../sass/components/_delek.scss */
 .node-type-price table tbody tr {
   height: 40px;
   border: none;
 }
-/* line 3975, ../sass/components/_delek.scss */
+/* line 3995, ../sass/components/_delek.scss */
 .node-type-price table tbody tr.odd {
   background-color: #edf9f9;
 }
 
-/* line 3983, ../sass/components/_delek.scss */
+/* line 4003, ../sass/components/_delek.scss */
 .page-node-edit.node-type-price .form-field-type-text, .page-node-edit.node-type-price .form-field-type-number-decimal {
   width: 50%;
   float: right;
 }
-/* line 3986, ../sass/components/_delek.scss */
+/* line 4006, ../sass/components/_delek.scss */
 .page-node-edit.node-type-price .form-field-type-text input, .page-node-edit.node-type-price .form-field-type-number-decimal input {
   width: 90%;
 }
 
 /********  message  *******/
-/* line 3994, ../sass/components/_delek.scss */
+/* line 4014, ../sass/components/_delek.scss */
 .messages--error, #webform-component-file .messages, #webform-component-file .messages--status, #webform-component-file .messages--warning, #webform-component-file .messages--error {
   background-image: none;
   background-color: transparent;
@@ -6800,24 +6833,24 @@ nav.mm-menu.mm-basic {
   padding: 0 !important;
   margin: 0;
 }
-/* line 4000, ../sass/components/_delek.scss */
+/* line 4020, ../sass/components/_delek.scss */
 .messages--error ul, #webform-component-file .messages ul, #webform-component-file .messages--status ul, #webform-component-file .messages--warning ul, #webform-component-file .messages--error ul {
   margin: 0 0 10px 0 !important;
   padding: 0;
 }
-/* line 4004, ../sass/components/_delek.scss */
+/* line 4024, ../sass/components/_delek.scss */
 .messages--error li, #webform-component-file .messages li, #webform-component-file .messages--status li, #webform-component-file .messages--warning li, #webform-component-file .messages--error li {
   list-style: none;
   color: #aa4955;
   font-size: 17px;
 }
-/* line 4009, ../sass/components/_delek.scss */
+/* line 4029, ../sass/components/_delek.scss */
 .messages--error ul li li, #webform-component-file .messages ul li li, #webform-component-file .messages--status ul li li, #webform-component-file .messages--warning ul li li, #webform-component-file .messages--error ul li li {
   display: none;
 }
 
 /******* etic Code  ******/
-/* line 4016, ../sass/components/_delek.scss */
+/* line 4036, ../sass/components/_delek.scss */
 .node-989 .button a {
   width: 167px;
   max-width: 100%;
@@ -6843,96 +6876,96 @@ nav.mm-menu.mm-basic {
 }
 
 /********** webform result ************/
-/* line 4029, ../sass/components/_delek.scss */
+/* line 4049, ../sass/components/_delek.scss */
 .page-node-webform-results #main {
   width: 100%;
 }
-/* line 4032, ../sass/components/_delek.scss */
+/* line 4052, ../sass/components/_delek.scss */
 .page-node-webform-results .tabs-primary, .page-node-webform-results .tabs-secondary {
   display: none;
 }
 
 /********** Olimpic page ************/
-/* line 4057, ../sass/components/_delek.scss */
+/* line 4077, ../sass/components/_delek.scss */
 .node-1373 {
   width: 100%;
 }
-/* line 4059, ../sass/components/_delek.scss */
+/* line 4079, ../sass/components/_delek.scss */
 .node-1373 .field-name-field-image {
   width: 45%;
   float: left;
 }
-/* line 4062, ../sass/components/_delek.scss */
+/* line 4082, ../sass/components/_delek.scss */
 .node-1373 .field-name-field-image img {
   width: 85%;
   float: left;
 }
-/* line 4067, ../sass/components/_delek.scss */
+/* line 4087, ../sass/components/_delek.scss */
 .node-1373 .field-name-body {
   width: 100%;
   max-width: 500px;
   position: relative;
   top: -10px;
 }
-/* line 4072, ../sass/components/_delek.scss */
+/* line 4092, ../sass/components/_delek.scss */
 .node-1373 .field-name-body img {
   width: 100%;
   position: relative;
   right: -5px;
 }
-/* line 4077, ../sass/components/_delek.scss */
+/* line 4097, ../sass/components/_delek.scss */
 .node-1373 .field-name-body p {
   width: 90%;
   padding: 0 5px;
 }
 @media (max-width: 480px) {
-  /* line 4084, ../sass/components/_delek.scss */
+  /* line 4104, ../sass/components/_delek.scss */
   .node-1373 .field-name-field-image {
     width: 100%;
   }
-  /* line 4086, ../sass/components/_delek.scss */
+  /* line 4106, ../sass/components/_delek.scss */
   .node-1373 .field-name-field-image img {
     width: 100%;
   }
-  /* line 4090, ../sass/components/_delek.scss */
+  /* line 4110, ../sass/components/_delek.scss */
   .node-1373 .field-name-body {
     width: 100%;
   }
-  /* line 4092, ../sass/components/_delek.scss */
+  /* line 4112, ../sass/components/_delek.scss */
   .node-1373 .field-name-body img {
     margin-top: 30px;
   }
-  /* line 4095, ../sass/components/_delek.scss */
+  /* line 4115, ../sass/components/_delek.scss */
   .node-1373 .field-name-body p {
     width: 100%;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 4102, ../sass/components/_delek.scss */
+  /* line 4122, ../sass/components/_delek.scss */
   .node-1373 .field-name-field-image {
     width: 50%;
   }
-  /* line 4104, ../sass/components/_delek.scss */
+  /* line 4124, ../sass/components/_delek.scss */
   .node-1373 .field-name-field-image img {
     width: 100%;
   }
-  /* line 4108, ../sass/components/_delek.scss */
+  /* line 4128, ../sass/components/_delek.scss */
   .node-1373 .field-name-body {
     width: 45%;
     top: -30px;
   }
-  /* line 4111, ../sass/components/_delek.scss */
+  /* line 4131, ../sass/components/_delek.scss */
   .node-1373 .field-name-body img {
     margin-top: 30px;
   }
-  /* line 4114, ../sass/components/_delek.scss */
+  /* line 4134, ../sass/components/_delek.scss */
   .node-1373 .field-name-body p {
     width: 100%;
     font-size: 0.7em;
   }
 }
 
-/* line 4124, ../sass/components/_delek.scss */
+/* line 4144, ../sass/components/_delek.scss */
 #block-views-oplimic-page-block .view-header {
   font-size: 30px;
   text-align: center;
@@ -6941,64 +6974,64 @@ nav.mm-menu.mm-basic {
   margin: 0 auto;
   line-height: 1.5;
 }
-/* line 4132, ../sass/components/_delek.scss */
+/* line 4152, ../sass/components/_delek.scss */
 #block-views-oplimic-page-block .views-row {
   clear: both;
   padding-top: 30px;
 }
-/* line 4136, ../sass/components/_delek.scss */
+/* line 4156, ../sass/components/_delek.scss */
 #block-views-oplimic-page-block .views-field-field-athlet-image {
   max-width: 330px;
   width: 100%;
   float: right;
   padding-left: 40px;
 }
-/* line 4142, ../sass/components/_delek.scss */
+/* line 4162, ../sass/components/_delek.scss */
 #block-views-oplimic-page-block .views-field-title {
   font-size: 20px;
   font-weight: bold;
 }
 @media (max-width: 480px) {
-  /* line 4148, ../sass/components/_delek.scss */
+  /* line 4168, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .view-header {
     font-size: 1.5em;
     width: 80%;
   }
-  /* line 4151, ../sass/components/_delek.scss */
+  /* line 4171, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .view-header p {
     margin: 0;
   }
-  /* line 4155, ../sass/components/_delek.scss */
+  /* line 4175, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .views-row {
     padding-top: 10px;
     text-align: center;
   }
-  /* line 4159, ../sass/components/_delek.scss */
+  /* line 4179, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .views-field-field-athlet-image {
     padding-left: 0;
   }
-  /* line 4162, ../sass/components/_delek.scss */
+  /* line 4182, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .views-field-title {
     clear: both;
     padding-top: 10px;
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
-  /* line 4169, ../sass/components/_delek.scss */
+  /* line 4189, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .view-header {
     font-size: 1.1em;
     width: 80%;
   }
-  /* line 4173, ../sass/components/_delek.scss */
+  /* line 4193, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .views-row {
     padding-top: 10px;
   }
-  /* line 4176, ../sass/components/_delek.scss */
+  /* line 4196, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .views-field-field-athlet-image {
     width: 40%;
     padding-left: 20px;
   }
-  /* line 4180, ../sass/components/_delek.scss */
+  /* line 4200, ../sass/components/_delek.scss */
   #block-views-oplimic-page-block .views-field-field-athlet-content {
     font-size: 0.8em;
     position: relative;
@@ -7007,14 +7040,14 @@ nav.mm-menu.mm-basic {
 }
 
 /**********   circle bottom  **************/
-/* line 4192, ../sass/components/_delek.scss */
+/* line 4212, ../sass/components/_delek.scss */
 .circle {
   position: fixed;
   bottom: 20px;
   left: 20px;
   z-index: 500;
 }
-/* line 4197, ../sass/components/_delek.scss */
+/* line 4217, ../sass/components/_delek.scss */
 .circle a {
   display: block;
   background-color: #cd1d24;
@@ -7029,7 +7062,7 @@ nav.mm-menu.mm-basic {
   width: 70px;
   box-sizing: border-box;
 }
-/* line 4210, ../sass/components/_delek.scss */
+/* line 4230, ../sass/components/_delek.scss */
 .circle a:hover {
   opacity: 0.8;
 }

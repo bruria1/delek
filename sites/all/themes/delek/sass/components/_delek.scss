@@ -2098,19 +2098,39 @@ ui-state-default.ui-state-active, .ui-widget-content .ui-state-default.ui-state-
  }
 }
 
+.page-node-21{
+  #main{
+    width: 100%
+  }
+}
+
+#block-views-roles-block-1{
+  width: 60%;
+  float: right;
+  @include respond-to(small-medium){
+    width: 100%;
+  }
+}
 #block-block-15{
+  width: 30%;
+  float: left;
+  @include respond-to(small-medium){
+    width: 100%;
+  }
   h2{
     font-family: Ad-light, arial;
-    font-size: 55px!important;
-    line-height: 52px;
+    font-size: 40px!important;
+    line-height: 38px;
     font-weight: normal;
     letter-spacing: -3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
     @include respond-to(medium){
         font-size: 65px!important;
         line-height: 62px;   
+    }
+    @include respond-to(small-medium){
+      margin-top: 20px;
     }
   }
   div{
